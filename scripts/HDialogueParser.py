@@ -3,15 +3,13 @@ from io import TextIOWrapper
 from bs4 import BeautifulSoup
 import bs4
 import pandas as pd
-import pickle as pkl
 import re
 
-def getCharacters(soup: bs4.BeautifulSoup) -> list:
-    characters = [char.string for char in soup.find_all("h2")]
-    stop = characters.index('Passive Ghosts') # No more dialogue
-    return characters[:stop]
+def getSection(soup: bs4.BeautifulSoup, tag: str='h1') -> list:
+    section = [char.string for char in soup.find_all(tag)]
+    return section
 
-def getDialogue(file: TextIOWrapper, pattern: re.Pattern, end: int) -> list:
+def getDialogue(file: TextIOWrapper, pattern: re.Pattern) -> list:
     dialogue = list()
     section = ""
     try:
@@ -21,24 +19,22 @@ def getDialogue(file: TextIOWrapper, pattern: re.Pattern, end: int) -> list:
                 dialogue.append(section)
                 section = ""
                 count+=1
-            elif count > end:
-                return dialogue
             else:
                 section += line
-            
+        dialogue.append(section)
         file.close()
     except:
         print("SOMETHING WENT WRONG")
     return dialogue
 
-def annon(raw: TextIOWrapper, anno: TextIOWrapper, tag: list=['START', 'END']):
+def annon(raw: TextIOWrapper, anno: TextIOWrapper, tag: list=['START', 'END'], applicable: list=['']):
     # Annotate for a dialogue extractor .txt file
     try:
         raw = open('../private/self-made/HollowKnightCompleteScript.txt', 'r')
         anno = open('../private/self-made/HollowKnightCompleteScriptAN.txt', 'w')
 
         for line in raw.readlines():
-            if (formatted := line.strip()) in chars:
+            if (formatted := line.strip()) in applicable:
                 anno.write(tag[0]+formatted+tag[1])
             else:
                 anno.write(line)
@@ -60,20 +56,27 @@ if __name__ == '__main__':
     file.close()
     
     # GET CHARACTERS
-    chars = getCharacters(soup)
+    chars = getSection(soup, tag='h2')
+    stop = chars.index('Passive Ghosts') # No more dialogue
+    chars = chars[:stop]
+
+    # GET DESCRIPTIONS
+    desc = getSection(soup, tag='h3')
+    stop = desc.index('Other Godseekers') - 1
+    desc = desc[:stop]
+
+    for line in desc:
+        print(line)
 
     # ANNOTATE A DIALOGUE FILE
-    annon(open(src + '.txt', 'r'), open(src + 'AN.txt', 'w'), tag=['<character>', '</character>\n'])
+    annon(open(src + '.txt', 'r'), open(src + 'AN.txt', 'w'), tag=['<character>', '</character>\n'], applicable=chars)
 
     # Now make a dataframe
     hollow_knight_df = pd.DataFrame({"character": chars})
 
     # Get the dialogue sections from the annotated file
-    hollow_knight_df['dialogues'] = getDialogue(open(src + 'AN.txt', 'r'), re.compile(r'<character>.+</character>'), 56)[1:]
-
-    # I don't know why... but the last one is a bit too long
-    print(len(hollow_knight_df.loc[55, 'dialogues']))
-    hollow_knight_df.loc[55, 'dialogues'] = hollow_knight_df.loc[55, 'dialogues'][:11585]
+    hollow_knight_df['dialogues'] = getDialogue(open(src + 'AN.txt', 'r'), re.compile(r'<character>.+</character>'))[1:]
+    print(hollow_knight_df.sample())
     
     # IT'S TOO BIG OH GOD OH NO
     # hollow_knight_df.to_pickle('../sample_data/hollow_knight.pkl')
