@@ -16,3 +16,5 @@ Bioware. (2003). Star Wars: Knights of the Old Republic (PC Version) [Video Game
 Torchlight II (PC Version) [Video Game]. (2012). Runic Games.
 
 The Elder Scrolls I-V and The Elder Scrolls Online (PC Versions) [Video Games]. (1994-2014). Bethesda Softworks.
+
+Hollow Knight (PC Version) [Video Game]. (2017). Team Cherry.
