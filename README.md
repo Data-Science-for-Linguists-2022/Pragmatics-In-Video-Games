@@ -7,11 +7,12 @@ This project is about the evolution of video game writing over the decades. This
 
 ## Citations:
 ### Dataset Based On:
-@inproceedings{vanstegeren2020fantastic,
-    title = "{Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora}",
-    author = {van Stegeren, Judith and Theune, Mari{\"e}t},
-    booktitle = "Intelligent Narrative Technologies Workshop",
-    month = oct,
-    year = "2020",
-    publisher = {AAAI Press},
-}
+van Stegeren, J., & Theune, M. (2020). Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora.    
+    In Intelligent Narrative Technologies Workshop. essay, AAAI Press.
+
+### Data Collected From:
+Bioware. (2003). Star Wars: Knights of the Old Republic (PC Version) [Video Game]. LucasArts.
+
+Torchlight II (PC Version) [Video Game]. (2012). Runic Games.
+
+The Elder Scrolls I-V and The Elder Scrolls Online (PC Versions) [Video Games]. (1994-2014). Bethesda Softworks.
