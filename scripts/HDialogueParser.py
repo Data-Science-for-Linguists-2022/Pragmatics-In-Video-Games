@@ -1,49 +1,70 @@
 # Hollow Knight Dialogue Parser, Dialogue from https://docs.google.com/document/d/1oaED7I6xL5NItD-wKyDB455f58d3weLz8OMIkRyEQlo/edit#heading=h.wgd1af4mikjx
-from io import TextIOWrapper
+from collections import defaultdict
 from bs4 import BeautifulSoup
 import bs4
 import pandas as pd
 import re
 
-def getSection(soup: bs4.BeautifulSoup, tag: str='h1') -> list:
-    section = [char.string for char in soup.find_all(tag)]
+def getSection(soup: bs4.BeautifulSoup, tag: re.Pattern) -> list:
+    section = [char.text for char in soup.find_all(tag)]
     return section
 
-def getDialogue(file: TextIOWrapper, pattern: re.Pattern) -> list:
-    dialogue = list()
-    section = ""
+def getFromAnnon(filepath: str='FILEPATH', pattern_nest: list() = r'') -> defaultdict:
+    main_dict = defaultdict()
     try:
-        count = 0
-        for line in file.readlines():
-            if re.match(pattern, line.strip()):
-                dialogue.append(section)
-                section = ""
-                count+=1
+        file = open(filepath, 'r')
+
+        # Jump to tagging section
+        line = file.readline()
+        while not re.match(pattern_nest[0], line.strip()): line = file.readline()
+        
+        # We may begin
+        fline = ''
+        start = True
+        text = ''
+        while line != '':
+            if re.match(pattern_nest[0], line.strip()):
+                if start:
+                    start = False
+                else:
+                    main_dict[fline] = text
+                    text = ''
+                fline = re.sub(pattern_nest[0], r'\1', line.strip())
             else:
-                section += line
-        dialogue.append(section)
+                text += line.strip() + '\n'
+            line = file.readline()
+
+    except:
+        print("SOMETHING WENT WRONG")
+
+    return main_dict
+    
+def annon(filepath: str='FILEPATH', tag: list=['START', 'END'], applicable: list=['']):
+    # Annotate for a dialogue extractor .txt file
+    try:
+        file = open(filepath, 'r')
+        replace = ""
+        for line in file:
+            if (formatted := line.strip()) in applicable:
+                replace += (tag[0]+formatted+tag[1])
+            else:
+                replace += line.strip()
+            replace += '\n'
+        file.close()
+
+        file = open(filepath, 'w')
+        file.write(replace)
         file.close()
     except:
         print("SOMETHING WENT WRONG")
-    return dialogue
 
-def annon(raw: TextIOWrapper, anno: TextIOWrapper, tag: list=['START', 'END'], applicable: list=['']):
-    # Annotate for a dialogue extractor .txt file
-    try:
-        raw = open('../private/self-made/HollowKnightCompleteScript.txt', 'r')
-        anno = open('../private/self-made/HollowKnightCompleteScriptAN.txt', 'w')
-
-        for line in raw.readlines():
-            if (formatted := line.strip()) in applicable:
-                anno.write(tag[0]+formatted+tag[1])
-            else:
-                anno.write(line)
-                anno.write('\n')
-
-        raw.close()
-        anno.close()
-    except:
-        print("SOMETHING WENT WRONG")
+def pretty(l:list, chunk: int = 3):
+    start = 0
+    base = chunk
+    while start < len(l):
+        print(' | '.join(l[start:chunk]))
+        start = chunk
+        chunk += base
 
 if __name__ == '__main__':
 
@@ -56,27 +77,29 @@ if __name__ == '__main__':
     file.close()
     
     # GET CHARACTERS
-    chars = getSection(soup, tag='h2')
-    stop = chars.index('Passive Ghosts') # No more dialogue
-    chars = chars[:stop]
+    chars = getSection(soup, tag=re.compile(r'h2'))
+
+    #print("===================== CHARACRTERS =====================")
+    #print("NUMBER:", len(chars))
+    #pretty(chars, 9)
 
     # GET DESCRIPTIONS
-    desc = getSection(soup, tag='h3')
-    stop = desc.index('Other Godseekers') - 1
-    desc = desc[:stop]
-
-    for line in desc:
-        print(line)
+    desc = getSection(soup, tag=re.compile(r'h[3-6]'))
+    #print("===================== SECTIONS =====================")
+    #print("NUMBER:", len(desc))
+    #pretty(desc, 9)
 
     # ANNOTATE A DIALOGUE FILE
-    annon(open(src + '.txt', 'r'), open(src + 'AN.txt', 'w'), tag=['<character>', '</character>\n'], applicable=chars)
-
-    # Now make a dataframe
-    hollow_knight_df = pd.DataFrame({"character": chars})
+    annon(src + 'AN.txt', tag=['<character>', '</character>\n'], applicable=chars)
+    annon(src + 'AN.txt', tag=['<description>', '</description>\n'], applicable=desc)
 
     # Get the dialogue sections from the annotated file
-    hollow_knight_df['dialogues'] = getDialogue(open(src + 'AN.txt', 'r'), re.compile(r'<character>.+</character>'))[1:]
-    print(hollow_knight_df.sample())
+    main_dict = getFromAnnon(src + 'AN.txt', [re.compile(r'<character>(.+)</character>')])
+    
+
+    # Now make a dataframe
+    hollow_knight_df = pd.DataFrame({'characters': main_dict.keys(), 'dialogue': main_dict.values()})
+    print(hollow_knight_df.loc[0])
     
     # IT'S TOO BIG OH GOD OH NO
     # hollow_knight_df.to_pickle('../sample_data/hollow_knight.pkl')
