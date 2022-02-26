@@ -7,6 +7,16 @@ This project is about the evolution of video game writing over the decades. This
 
 **PLEASE NOTE** I am only publishing a sample of my dataset, including the full data of any video game texts I parse myself. However, the original repository this research is based on can be found [here](https://github.com/hmi-utwente/video-game-text-corpora).
 
+## Overview
+* `sample_data` contains sample datasets used in this research. Any dataset originally made by me is in full, this includes: `hollow_sample.pkl`.
+* `scripts` contains any full `.py` scripts I made during this research, mostly parsers.
+* `notebooks` contains any `.ipynb` Jupyter Notebook files I made during this research.
+
+* `progress_report.md` contains status updates on the research and data collected.
+* `LICENSE.md` is this repository's license, currently `GNU General Public License v3.0`
+* `project_plan.md` is the repository's initial purpose and highlights a road map of goals, subject to change.
+* `README.md` this, contains general repository information and **necessary** citations should one use research/data from this repository.
+
 ## Citations:
 ### Dataset Based On:
 van Stegeren, J., & Theune, M. (2020). Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora. In Intelligent Narrative Technologies Workshop. essay, AAAI Press.
