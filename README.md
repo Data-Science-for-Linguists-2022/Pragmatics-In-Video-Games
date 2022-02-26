@@ -3,7 +3,12 @@
 By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ***
 ## Summary
-This project is about the evolution of video game writing over the decades. This project's goal is to not only analyze how video game writing has changed since its early foundations, but also highlight how said writing is influenced by the game's genre and how fantasy games in particular use certain sociolinguistic phenomena to their advantage.
+This repository seeks to answer the following questions:
+1. How do video game pragmatics and discourse differ from their real life counterparts? Does the player being the central figure drastically affect how they are realized?
+2. What (if any) techniques do video game writers employ which are different from other forms of writing?
+3. Do writers of fantasy video games take into consideration sociolinguistic elements such as dialect, culture, identity, region, etc. when writing their characters? If so, how?
+4. Expanding upon question 3, are those considerations "realistic"; in other words, do writers commit pseudo-lingustics when trying to write for fantasy cultures? (e.g. "This fantasy culture talks like this because they cannot understand the first person" or something).
+5. Are there differences between professional video game writers, and "indie" (low-budget, small studio) video game writers?
 
 **PLEASE NOTE** I am only publishing a sample of my dataset, including the full data of any video game texts I parse myself. However, the original repository this research is based on can be found [here](https://github.com/hmi-utwente/video-game-text-corpora).
 
