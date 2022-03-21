@@ -10,6 +10,16 @@ This repository seeks to answer the following questions:
 4. Expanding upon question 3, are those considerations "realistic"; in other words, do writers commit pseudo-linguistics when trying to write for fantasy cultures? (e.g. "This fantasy culture talks like this because they cannot understand the first person" or something).
 5. Are there differences between professional video game writers, and "indie" (low-budget, small studio) video game writers?
 
+### Approach For Each Question
+I plan to answer each question in the following way(s):
+1. I have two main hypothesis in regards to how pragmatics change:
+    * Deictic words are infrequent when text/dialogue involves quests or objectives. This could be because writers want to make sure a player knows the objective.
+    * Video game dialogue tends to go against the Maxim of Manner; that is, they tend to hyper-use jargon.
+2. 
+3. 
+4. 
+5. 
+
 **PLEASE NOTE** I am only publishing a sample of my dataset, including the full data of any video game texts I parse myself. However, the original repository this research is based on can be found [here](https://github.com/hmi-utwente/video-game-text-corpora).
 
 ## Overview
