@@ -27,3 +27,5 @@ I did not change from my original plans as stated in the previous progress repor
 
 ### Licensing:
 My license and justification of it have not changed since the previous progress report and have been finalized.
+
+### TODO: ADD `meta_kotor.pkl` TO `sample_data` FOLDER
