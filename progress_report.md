@@ -20,4 +20,10 @@ With that in-mind, I decided to use the `GNU General Public License v3.0` for th
 Finally, I decided to only release [sample data](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/tree/main/sample_data) so people interested in the original repository's datasets would be guided there. However, any datasets I make myself will be available, in-full, in the sample data folder (e.g. `hollow_sample.pkl` is a full dataset).
 ***
 ## Progress Report 2:
-The data acquisition process has been complete; unfortunately, I was not able to obtain the extra data from other games as I had hoped, but I still have plenty of data to begin answering my questions proposed in the `README.md` file. My data has been clean (although I recommend anyone using my _Hollow Knight_ data clean it more if they are not familiar with the game). A brief overview describing the various `.csv`s can be found in `data_description.md`.
+The data acquisition process has been complete; unfortunately, I was not able to obtain the extra data from other games as I had hoped, but I still have plenty of data to begin answering my questions proposed in the `README.md` file. My data has been clean (although I recommend anyone using my _Hollow Knight_ data clean it more if they are not familiar with the game). A brief overview describing the various `.csv`s can be found in `data_description.md`. I begin the analysis of my data in `analysis.ipynb`, which is a continuation of the previous `overview.ipynb` notebook.
+
+### Data-Sharing Scheme:
+I did not change from my original plans as stated in the previous progress report. It has been finalized.
+
+### Licensing:
+My license and justification of it have not changed since the previous progress report and have been finalized.
