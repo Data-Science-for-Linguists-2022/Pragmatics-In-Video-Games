@@ -5,12 +5,12 @@ By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ## Summary
 This repository seeks to answer the following questions:
 1. How do video game pragmatics and discourse differ from their real life counterparts? 
-    * Does the player being the central figure drastically affect how they are realized?
-    * What (if any) techniques do video game writers employ which are different from other forms of writing?
+    * _Hypothesis_: Since the player is the central figure, most dialogue is geared towards the player (whether directly or indirectly). This means that there should be a higher frequency of both the second-person pronoun ("you") **and** that verbs will be most frequently conjugated in their mandative form.
+    * _Hypothesis_: Writers want the player to feel like the world they create is real and expansive. I expect a high count of named-entities and hapaxes.
     * _Hypothesis_: Deictic words are infrequent when text/dialogue involves quests or objectives. This could be because writers want to make sure a player knows the objective.
-3. Do writers of fantasy video games take into consideration sociolinguistic elements such as dialect, culture, identity, region, etc. when writing their characters? If so, how?
-4. Expanding upon question 3, are those considerations "realistic"; in other words, do writers commit pseudo-linguistics when trying to write for fantasy cultures? (e.g. "This fantasy culture talks like this because they cannot understand the first person" or something).
-5. Are there differences between professional video game writers, and "indie" (low-budget, small studio) video game writers?
+2. Do writers of fantasy video games take into consideration sociolinguistic elements such as dialect, culture, identity, region, etc. when writing their characters? If so, how?
+3. Expanding upon question 3, are those considerations "realistic"; in other words, do writers commit pseudo-linguistics when trying to write for fantasy cultures? (e.g. "This fantasy culture talks like this because they cannot understand the first person" or something).
+4. Are there differences between professional video game writers, and "indie" (low-budget, small studio) video game writers?
 ***
 **PLEASE NOTE** I am only publishing a sample of my dataset, including the full data of any video game texts I parse myself. However, the original repository this research is based on can be found [here](https://github.com/hmi-utwente/video-game-text-corpora).
 ***
