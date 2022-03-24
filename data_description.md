@@ -13,6 +13,7 @@ Contains written books from all main-series _Elder Scrolls_ games (_Arena_, _Dag
     | `game` | Python `List` containing strings, identifying which game(s) the document has appeared in |
     | `text` | The actual text, scraped from fan wiki |
     | `url` | URL to the scraped webpage |
+    
 There are:
 - 5446 Entries
 - 2106 **Unique** Authors (_anonymous_ are counted as 1)
@@ -45,6 +46,7 @@ Abbreviated as _KOTOR_, contains the following information, inside `kotor.pkl`:
     | `next` | Python `List` containing the next "chunks" of dialogue (if any) |
     | `previous` | Python `List` containing the previous "chunks" of dialogue (if any) |
     | `comment` | Comments (if any) left by the developer in any **in-game** files|
+    
 Data pertaining to the animations listed in the `animation` column can be found in `meta_kotor.pkl`.
 
 There are:
