@@ -4,6 +4,7 @@ This file summarizes the data contained in the `.csv` files used in this project
 ***
 ## The Elder Scrolls:
 Contains written books from all main-series _Elder Scrolls_ games (_Arena_, _Daggerfall_, _Morrowind_, _Oblivion_, _Skyrim_, _Elder Scrolls Online_) with the following information:
+
     | Column Name | Description |
     -----------------------------
     | `title` | Name of the document in-game |
@@ -18,6 +19,7 @@ There are:
 ***
 ## Torchlight II
 Contains the quest dialogue from _Torchlight II_ with the following information:
+
     | Column Name | Description |
     -----------------------------
     | `speaker` | Who says/displays the text |
@@ -33,6 +35,7 @@ There are:
 ***
 ## Star Wars: Knights of the Old Republic
 Abbreviated as _KOTOR_, contains the following information, inside `kotor.pkl`:
+
     | Column Name | Description |
     -----------------------------
     | `speaker` | Speaker of dialogue |
