@@ -4,8 +4,9 @@ By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ***
 ## Summary
 This repository seeks to explore the following avenues:
-1. How are order/requests realized in video game quest dialogues? Are there more direct or indirect orders?
-2. What is the frequency of the 2nd person pronoun, _you_? Extending that, what are the frequencies of other pronouns and pro-verbs?
+1. How are orders/requests realized in video game dialogues? Are there more direct or indirect orders?
+2. What is the frequency of the 2nd person pronoun, _you_? 
+    * Extending that, what are the frequencies of other pronouns and pro-verbs?
 3. Are hapaxes a common occurrence and what are their purpose(s) in video games?
 ***
 **PLEASE NOTE** I am only publishing a sample of my dataset, including the full data of any video game texts I parse myself. However, the original repository this research is based on can be found [here](https://github.com/hmi-utwente/video-game-text-corpora).
