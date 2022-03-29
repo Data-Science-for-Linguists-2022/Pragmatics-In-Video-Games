@@ -49,4 +49,4 @@ PPS+MD
 PPSS"""
 
 if __name__ == '__main__':
-    pass
+    print("HELLO")
