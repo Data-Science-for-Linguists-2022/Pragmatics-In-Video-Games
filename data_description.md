@@ -61,7 +61,7 @@ Very simple `.csv`, containing only the following information:
 | Column Name | Description |
 | ----------- | ----------- |
 | `character` | Name of the speaker |
-| `dialogue` | Text dump containing **all** dialogue (partially tagged in `.xml` format) from the speaker throughout their various appearances in the game |
+| `text` | Text dump containing **all** dialogue (_partially_ tagged in `.xml` format) from the speaker throughout their various appearances in the game |
     
 There are:
 - 55 Characters

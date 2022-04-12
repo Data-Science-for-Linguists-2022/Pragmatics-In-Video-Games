@@ -14,16 +14,16 @@ This repository seeks to explore the following avenues:
 ***
 ## Overview
 ### Folders
-* `sample_data` contains sample datasets used in this research. Any dataset originally made by me is in full, this includes: `hollow_sample.pkl`.
-* `scripts` contains any full `.py` scripts I made during this research, mostly parsers. Some might not have been used.
-* `notebooks` contains any `.ipynb` Jupyter Notebook files I made during this research.
+* [`sample_data`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/tree/main/sample_data) contains sample datasets used in this research. Any dataset originally made by me is in full, this includes: [`hollow_sample.pkl`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/sample_data/hollow_sample.pkl).
+* [`scripts`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/tree/main/scripts) contains any full `.py` scripts I made during this research, mostly parsers. Some might not have been used (... or completed...).
+* [`notebooks`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/tree/main/notebooks) contains any `.ipynb` Jupyter Notebook files I made during this research.
 
 ### Main Documents
-* `progress_report.md` contains status updates on the research and data collected.
-* `data_description.md` succinctly describes and overviews the data. 
-* `project_plan.md` is the repository's initial purpose and highlights a road map of goals, subject to change.
-* `LICENSE.md` is this repository's license, `GNU General Public License v3.0`
-* `README.md` this, contains general repository information and **necessary** citations should one use research/data from this repository.
+* [`progress_report.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/progress_report.md) contains status updates on the research and data collected.
+* [`data_description.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/data_description.md) succinctly describes and overviews the data. 
+* [`project_plan.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/project_plan.md) is the repository's initial purpose and highlights a road map of goals, subject to change.
+* [`LICENSE.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/LICENSE.md) is this repository's license, `GNU General Public License v3.0`
+* [`README.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/README.md) this, contains general repository information and **necessary** citations should one use research/data from this repository.
 ***
 ## Citations:
 ### Dataset Based On:
