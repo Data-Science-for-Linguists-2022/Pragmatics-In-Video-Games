@@ -66,3 +66,14 @@ Very simple `.csv`, containing only the following information:
 There are:
 - 55 Characters
 - Tags Include: `<description>` with their associated end tags
+***
+## Entities
+Another extremely simple `.csv` made via using _spaCy_'s `ner` model to tag entities within the texts, containing only the following information:
+
+| Column Name | Description |
+| ----------- | ----------- |
+| `entity` | Name of the entity |
+| `tag` | `ent.label_` production as given (potential inaccuracies) |
+| `source` | Game from which the entity came |
+
+**NOTE:** Only the data from _Hollow Knight_ and _Torchlight_ are from the full text data, _KOTOR_ and _The Elder Scrolls_ were taken as samples due to memory limitations. Tagger accuracy estimated to be around 89% as per [_spaCy_'s website](https://spacy.io/usage/facts-figures#benchmarks).

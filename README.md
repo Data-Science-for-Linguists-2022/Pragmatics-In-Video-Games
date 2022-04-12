@@ -25,6 +25,8 @@ This repository seeks to explore the following avenues:
 * [`LICENSE.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/LICENSE.md) is this repository's license, `GNU General Public License v3.0`
 * [`README.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/README.md) this, contains general repository information and **necessary** citations should one use research/data from this repository.
 ***
+Here's what [my fellow classmates](https://github.com/Data-Science-for-Linguists-2022/Class-Lounge/blob/main/guestbooks/guestbook_alejandro.md) said about my project while it was in development!
+***
 ## Citations:
 ### Dataset Based On:
 van Stegeren, J., & Theune, M. (2020). Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora. In Intelligent Narrative Technologies Workshop. essay, AAAI Press.
