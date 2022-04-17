@@ -1,5 +1,8 @@
 # Scripts
 ***
-Alejandro Ciuba, alc307@pitt.edu
+By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ***
-Here will go all self-made python scripts and jupyter notebooks created and used throughout the project's life.
+The scripts are as follows:
+- `brown_deictic_extractor.py`: **FAILURE** Abandonded extractor for original plan (look at deictic words). Deemed too complicated.
+- `HDialogueParser.py`: Dual-text parser used to extract and tag the text from the [Hollow Knight Fan Script](https://docs.google.com/document/d/17zFS-WaLwkEw-4UV3ByH2SCmkAjQHHRY5_izHbdKSdI/edit?usp=sharing).
+- `test_orders_requests.py`: Partially how I tested my _spaCy Matcher_ and regex expressions. `Pytest` script, run by doing `pytest` in your CLI.

@@ -10,3 +10,6 @@ desktop.ini
 temp/
 data/
 private/
+#------------------ pytest directories to ignore
+__pycache__/
+.pytest_cache/
