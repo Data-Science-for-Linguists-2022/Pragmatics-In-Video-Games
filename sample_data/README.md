@@ -7,6 +7,8 @@ This subdirectory is free for anyone to use! This sample data contains the follo
 - `entities.pkl`: A list of named entities from all games as tagged by _spaCy_'s `en_core_web_trf` model.
     **NOTE:** Only a partial list from _KOTOR_ and _TES Books_ due to memory limitations.
 - `hollow_sample.pkl`: The complete (kind of garbagely-tagged) script of Hollow Knight character dialogue.
+- `hollow_knight1.txt` and `hollow_knight2.txt` are the cleaned text dumps of the entire _Hollow Knight_ dialogue script, with all headers and tags being removed.
+    **NOTE:** These text files were used in the _spaCy_ model creation, but not in the Dataframe creation (`hollow_sample.pkl`).
 - `kotor_sample.pkl`: The first 5,000 entries of character dialogue from _Star Wars: Knights of the Old Republic_.
 - `meta_kotor.pkl`: Complete list of animations that can occur during dialogue in _Star Wars: Knights of the Old Republic_.
 - `ordreq.pkl`: Tagged sentences for orders and requests.
