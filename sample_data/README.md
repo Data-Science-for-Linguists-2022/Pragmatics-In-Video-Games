@@ -9,6 +9,8 @@ This subdirectory is free for anyone to use! This sample data contains the follo
 - `hollow_sample.pkl`: The complete (kind of garbagely-tagged) script of Hollow Knight character dialogue.
 - `kotor_sample.pkl`: The first 5,000 entries of character dialogue from _Star Wars: Knights of the Old Republic_.
 - `meta_kotor.pkl`: Complete list of animations that can occur during dialogue in _Star Wars: Knights of the Old Republic_.
+- `ordreq.pkl`: Tagged sentences for orders and requests.
+    **NOTE:** There exists some inaccuracies in counts.
 - `torchlight_sample.pkl`: The first 100 entries from all the quest dialogue of _Torchlight II_.
 ***
 **NOTE:** If you use any of this, please give credit not only to me, but also to Judith Von Stegeren and Mari Theune (cited in the main [`README.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/README.md)).
