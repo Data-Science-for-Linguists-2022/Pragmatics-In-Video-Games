@@ -120,7 +120,66 @@ Speaker: Bastila | Concordance:
 Speaker: Player | Concordance:
 	...are you able to speak with the Sand People when I can't?...
 
-=============== ORDER AND REQUESTS FOR HOLLOW KNIGHT ===============
+MATCHER EXPRESSIONS
+
+	DO1
+Open up the panel to my neural cortex and I will show you how to disable my safeguards...
+Return to me if you obtain information on my daughter and the other missing Selkath youth,
+Use the mouse to look through the Medical Items in the ACTION MENU until you see "
+Ask the next Sith you see if they're bad and they'll set you straight.
+Do as I ask.*Grunt*Is this the best place for racing?You're from the military base?
+Run back to the excavation area and we can protect you.
+Bristag me laesfa!I had hoped you would continue to cooperate,
+Return when you feel you are ready for this challenge.
+Let's see how you do against Zoriis Bafka,
+Give me the basics on how to race.
+Look how much fire power he's carrying!
+know what was there are the Sand People,
+Stop this madness now!So where is Quatra now?Fine.
+Go talk to the Kiosk on Coruscant.
+Talk to her to get my order.
+Don't turn this into a war.
+Tell me the history of your clan.
+Help us and we'll help you,
+Goodbye.[Step away from the escape pod.]Hey,
+Call me that from now on.
+Let's hope you do better.
+Think about what you're doing.
+COMMAND?Stay out of my way.
+Let's try something else.
+Let me see these items.
+Watch out for the tuk'ata.
+Engage droid in patrol mode.
+do another round like before.
+Don't do that.
+Humiliate your pet droid,
+get out of here!
+Don't get upset.
+Tell me about "
+Slice the computer.
+Let's go,
+Laugh at me,
+Honor my request.
+Kill me now,
+Come in human,
+Kill him now.
+Don't stare -
+Hold on there!
+Be warned,
+Go away!
+Guess what?
+Run along,
+Come in,
+Leave me.
+Hear again,
+Fight it!
+Walk away.
+Go ahead.
+Take it.
+Terminate interface.
+Spill it!Goodbye,
+Forgive me,
+=============== ORDER AND REQUESTS FOR Hollow Knight ===============
 
 	DO2
 Character: Leg Eater | Concordance:
@@ -238,7 +297,242 @@ Character: Elderbug | Concordance:
 
 	IR4
 
-=============== ORDER AND REQUESTS FOR TORCHLIGHT II ===============
+MATCHER EXPRESSIONS
+
+	IO3
+I want you to say...
+
+	DO1
+Get out of here and let me spend some quality time with all the Geo you've gifted me.
+Take this bright little fellow as your companion and he'll light your way through the thickest darkness.
+Sleep for as long as I have and you build up quite the appetite.
+Step over to the counter here and I'll see what you've got.
+Listen closely in there and you may hear the utterings of bugs long gone.
+Let us enjoy the old stagways of this kingdom together a little longer.
+Seek the old bug out and you may find progress that much easier.
+Take a look at some of the Charms I have for sale.
+Continue to open the stations and you'll have my deepest gratitude.
+Prolong our world's stasis or face the heart of its infection.
+Allow me a moment alone before this bedchamber becomes forever a shrine.
+Keep hunting down creatures until you have deciphered all of my notes!
+Stay alive and let's meet again on the road ahead.
+Burn that mark upon your shell and claim yourself as King.
+Meet me there and we'll test what skills you possess.
+Hold something in your mind and it lives on with you,
+Return with the child full of flame and he shall appear.
+Give me your Geo and I'll give you a gift.
+Give me Geo and I'll fix it for you.
+Step into the Colosseum and cut your way to victory.
+Give me the ore and some Geo for my efforts,
+Head out there and test its strength against your foes.
+Head out there and test its blade against your foes.
+Crawl back to the Waterways or wherever you came from!
+Scrutinise and question them relentlessly until they reveal their deceit.
+Let it course through you and into the Dream Nail.
+Venture the depths of this land and slay its beasts.
+Step over to a board and make your mark!
+Beware though that speaking truthfully may make you enemies.
+Do not steal the name I came up with!
+Share pain of grief and hope to soothe it?
+Let me have a look at the Dream Nail…
+Prove yourself worthy to bear the mark of Hunter.
+Show them you are worthy of a starring role!
+Give me Geo and you will get a gift…
+Let me peer into you for a moment…
+Give me Geo and you can have one.
+Step over here and show me your Geo.
+Don't go spending it all at once!
+Leave it on the ground and return later,
+Don't take something that isn't yours.
+Come down to explore these beautiful old ruins?
+Come back up and spend some time hunting,
+Pray you never find out what that is.
+Pray we do not meet in the arena…
+Don't ignore them or laugh at them.
+Make sure to believe in your own strength,
+Let your own desires be the only law.
+Take this old trinket as encouragement from me,
+Go ahead and take what belongs to you!
+Let us test our strength in joyful combat!
+Harvest the last lingering embers of this Kingdom.
+Come to buy a map have you?
+Let's hope it stays that way.
+Don't try to hide from me!
+Try one of the other trials first.
+Show us how foolish you truly are!
+Make bold decisions and follow them through,
+Come and see me when you do.
+Come searching for rare items have you?
+Come in and make yourself at home.
+Don't try to take it back.
+Come and find me if you dare.
+Let's start again and repeat the '
+Hunt down the Essence that lingers there!
+Take your gift and continue collecting Essence.
+Keep singing so I can find you!
+Prepare yourself well before attempting the task.
+Come in search of treats have you?
+Hold this charm and go hunting!
+Come and visit if you like.
+Don't be a stranger sweetums.
+Let me take you somewhere safer,
+Let us begin the lesson immediately!
+Stay here with me and meditate,
+Curse me and my foolish bravado!
+Prove yourself ready to face it.
+Do not linger in the nest.
+Collect it wherever you find it,
+Take this trinket for your efforts,
+Seek then knowledge of these lands?
+Stay as long as you like,
+Cost her and her people greatly,
+Let your fire burn even brighter!
+Hear how the crowd adores you!
+Let me peer into you...
+Go and pay your respects.
+Let me show you then...
+Return once you are worthier...
+Let's talk Geo instead.
+Go back into the world,
+Leave me to my solitude.
+Go back into the world,
+Be on my way soon.
+Care to see my efforts?
+Come to scale the mountain?
+Rely on your own instincts.
+Be on your journey then,
+Watch where you're going,
+Lest I humiliate you further!
+Think about something else instead,
+Avoid this at all costs.
+Spurn the promises of others,
+Keep this precept in mind!
+Be suspicious of them all.
+Go out into the world,
+Keep up your tireless work!
+Search the kingdom's corners.
+Earn your well deserved reward…
+Ascend ascend ascend with Gorb!
+Let us leave this place...
+Go out into the darkness.
+Let us destroy the anchor,
+Return with more Geo.
+Cut your way forward.
+Pass it over then.
+Keep your nail half-
+Give me the word,
+Don't be angry.
+Take it with you,
+Stay alive my friend.
+Be safe and farewell!
+Curse this wretched city!
+Stay on your guard!
+Do not honour them!
+Continue on your path,
+Do as you wish,
+Have faith in me!
+Have faith in me!
+Keep your faint flora,
+Don't be shy.
+Beware dreams of glory,
+Raise your weapon then,
+Keep hunting that scattered,
+Take the flame then,
+Don't be cruel.
+Show it to me!
+Give them to me...
+Give me Geo,
+Give me Geo,
+Make a contribution,
+Step over here,
+Cut me down!
+Pass it over.
+Give it here.
+Look at you!
+Take a look...
+Wear it proudly,
+Bring Jinn gift.
+Stay with us,
+Come no closer,
+Leave me now,
+Forgive my inaction...
+Trust the moon,
+Leave me be.
+Cross me again,
+Tremble before me!
+Win your battles,
+Invent your own!
+Take care Le'mer.
+Seek them out,
+Seek them out,
+Keep it up,
+Keep it up,
+Collect more Essence!
+Hold it aloft,
+Keep at it,
+Sit and rest.
+Sit and rest.
+Sit and rest.
+Sit and rest.
+Say no more,
+Complete the journal.
+Aid their propagation,
+Take us there,
+Seek my kin;
+Dance with me,
+Speak to Master.
+Speak to Master.
+Seek it out.
+Put it on!
+Grow and grow...
+Gather it up…
+Leave now.
+Stop there!
+Go on!
+Stay safe.
+Suit yourself.
+Go on,
+Come in,
+Go on...
+Go on...
+Go on...
+Head onward.
+Excuse me.
+Excuse me.
+Excuse me.
+Excuse me.
+Excuse me.
+Excuse me.
+Be brave,
+Know this,
+Trust me!
+Fear not,
+Scurry away!
+Fade away,
+Be safe...
+Take it,
+Go now,
+Ignore me,
+Teach me…
+Look there!
+Get out!
+Get out!
+Get out!
+Embrace light!
+Achieve union!
+Keep singing,
+Keep whispering,
+Have faith!
+Take heed.
+Stop there!
+Turn back,
+Look here!
+Bring it.
+Wear it!
+Refuse me,
+Stay here,
+Go away,
+=============== ORDER AND REQUESTS FOR Torchlight II ===============
 
 	DO2
 Speaker: Hoska | Concordance:
@@ -320,7 +614,244 @@ Speaker: NO SPEAKER | Concordance:
 
 	IR4
 
-=============== ORDER AND REQUESTS FOR THE ELDER SCROLLS ===============
+MATCHER EXPRESSIONS
+
+	DR2
+I ask you to attempt to retrieve the scroll?
+
+	IO2
+Your quest is nearly at an end.
+
+	IO3
+I want you to look into the Tower of the Moon,
+
+	DO1
+Enter the Eternal Palace in the Salt Barrens and stop the Faceless King from using the Vault of Souls to enslave the Zeraphi and the Ezrohir.- Locate the the Faceless King in the Eternal Palace- Stop the Faceless King from using the Vault of SoulsYour timing is perfect,
+Search the Scrapworks for a Power Source- Bring the Power Source to Professor Stoker in the Imperial CampYou have arrived at the Imperial Camp in the midst of the ruins at Grunnheim to find that the Alchemist is only an hour or so ahead of you.
+Report to the Vanquisher at the Estherian Enclave.- Return to the Estherian Enclave and report to Commander Vale- Report to Commander Vale the Estherian EnclaveI don't know if the Alchemist understands that Ordrak's Heart is wreaking such havoc ...
+Stop the Grand Regent before he harms the Guardian of the Wild.- Enter the Watchweald Temple via the Watchweald Portal and stop the Grand Regent- Speak to Guardian of the Wild in the Watchweald TempleThank you,
+Enter Tarroch's Rift in the Ossean Wastes and recharge the Spent Ember- Return to Nerasis in the Ossean WastesLocate the Sturmbeorn Necromancer in the Path of the Honored Dead and obtain his Implements of Enchantment.
+Let me just put these together for you and we'll see what it has to say for itself.- Search for more pieces of the robot.- Find a scientist who can piece together the robot.
+Go through Echo Pass to the Enclave and warn the Estherians about the Alchemist.- Reach the Estherian Enclave and speak to the Grand RegentI think this is as far as I can go.
+Discover the fate of Jessa's Father in the Rotting Crypt found in the Blightbogs.- Discover the fate of Jessa's Father in the Rotting Crypt found in the Blightbogs.- Defeat Cacklespit.
+Return to Mashal at the Lighthouse for your reward.- Defeat the Crab King and Wakeel in the Dead Shoals- Return to Mashal at the Lighthouse for your rewardSearch the Forsaken Vaults,
+Defeat the Alchemist and retrieve Ordrak's Heart.- Defeat the Alchemist and retrieve Ordrak's Heart- Defeat the Alchemist and retrieve Ordrak's HeartThe Alchemist is inside the Broken Mine,
+Return to Fazeer Shah after you have defeated Ezrek Khan.- Defeat Ezrek Khan in Jehannum- Give the Lamp of Marvels to Fazeer ShahEverything has transpired exactly as I intended!
+Return to Fazeer Shah in the Salt Barrens.- Recover the Lamp of Wonders from the Sadwa Mesa in the Salt Barrens- Return to Fazeer Shah in the Salt BarrensSo!
+Enter the Wellspring Treasury via the portal in the Temple Steppes- Return the Glyph of Balthazar to the Wellspring BasinYou have lifted the curse I brought upon myself,
+Locate Muzaffar in the Ossean Wastes and free him from his Ezrohir captors.- Locate Muzaffar in the Ossean Wastes- Free Muzaffar from the EzrohirFinally saved!
+Use the explosives to blow up the Infected Skara Nests.- Enter the |cFFD1FF7ASkaran Hives.testSmash the Eggs in the Skaran Hive and destroy the corrupting influence,
+Return to the Sphinx at the CForsaken Gate.- Defeat the Manticore in the Stygian Aerie- Return to the Sphinx at the Forsaken GateYour valor proved;
+Enter the Broken Mines and locate the Alchemist.- Enter the Broken Mines- Locate the AlchemistYou must overtake the Alchemist before he reaches the Clockwork Core.
+Retrieve the three Royal Masks from the Salt Barrens- Return the Royal Masks| to the |cFFFFBA00Faceless KingLocate the Ezrohir Marauder in the Ossean Wastes.
+Find the dynamite in the Abandoned Sawmill located in the Blightbogs.- Use the dynamite to open the entrance to the Scrapworks in the Blightbogs.
+Discover the Wellspring Temple in the Temple Steppes and find Commander Vale.- Talk to Vale the VanquisherI don't know who you are ...
+Defeat Kidrik the Mauler and rescue the Captured Estherians- Return to Elder JosimonYou must be the human the other Estherians are speaking of.
+Defeat the Netherim in the Blightbogs- Speak to the Injured Vanquisher in the BlightbogsThe entrance to the Scrapworks is blocked by a cave-
+Enter Plunder Cove via the portal in the Temple Steppes- Defeat Captain StillheartUse the explosives to blow up the Infected Skara Nests.
+Speak to Guardian of Air in ZerypheshSurvive against the hordes of enemies until you find a way to return to Fazeer Shah.
+Fight past the Ezrohir and free the Guardian!The time has come to enter Riftkeep and try to rescue the Guardian of Mana.
+Return to Zeryphesh when the Guardian of Mana is free.- Return to the Guardian of Air in ZerypheshWhen the Zeraphi and Ezrohir "
+Return to the Enclave and confer with Commander Vale.- Return to the Enclave and talk to the Vanquisher- Talk to the VanquisherApparently,
+Return to Commander Muzaffar in the Ossean WastesFind Hareph in the Salt Barrens and convince him to return to Zeryphesh.
+Return to Fazeer Shah in the Salt Barrens.- Survive the Luminous Arena- Return to Fazeer Shah in the Salt BarrensSo ...
+Return to Medrus in the Temple SteppesLocate and break down Barricaded Doors in the Watchweald Temple to rescue Temple Priests.
+Praise the day you came to our city!The people of Zeryphesh will long remember what you did here today.
+Return them to her in the Blightbogs to receive your rewardSince you helped us in our time of need,
+See if she needs us to pull back to the Enclave?It grieves me that the Grand Regent is ...
+Install Ordrak's Heart in the Clockwork Core.- Defeat the Netherlord- Install Ordrak's HeartThe Alchemist lies defeated,
+Come back later and hopefully I'll have figured out how to safely operate it!Enter the Icedeep Caverns,
+Locate the Bronze Head in the Wellspring Temple- Secure the Bronze Head from the SturmbeornMy thanks to you,
+Locate Bellethe's husband Finnas in the Widow's Veil- Return to Bellethe in Crows PassThank you again!
+Defeat Ezrohir Marauder in Ossean Wastes- Return Body Wrappings back to Umahd in the Ossean WastesMy friend,
+Seek out Professor Stoker to discover the fate of the camp and learn about the Clockwork Core.
+Return Armor Schematics to Vanquisher ScoutUse the Flammable Lanterns to burn down the huts in the Slavers'
+Retrieve the Golden Gear from the Whispering Cave- Bring the Golden Gear back to Ambassador TaldimutOh,
+Defeat the Wraith Lord and recover the Locket from the Rotting Crypt located in the Blightbogs.
+Hurry up about it.- Retrieve the Crown from the Forgotten Halls- Return to the Emberworks Door.
+Keep it up!The Guardian of Air has ordered the gate to the Empty Quarter sealed.
+Meet me there and see if your luck holds out!Defeat Captain Stillheart in Plunder Cove.
+Enter the Dead Shoals in the Salt Barrens and defeat the Crab King and Wakeel.
+Locate the Cognition Unit in the Forsaken Vaults- Install the Cognition Unit in Trillbot 4000.Oh,
+Locate the djinni Fazeer Shah in the Salt Barrens.- Locate the Djinni in Salt BarrensGreetings,
+Go to the Sadwa Mesa in the Salt Barrens and recover the Lamp of Wonders.
+Bring the Ezrohir Marauder's Body Wrappings back to Umahd in the Ossean Wastes.
+Bring the Golden Gear back to Ambassador Taldimut in the Frosted HillsThis is it!
+Do not return until you have found the skulls of four warriors of renown.
+Return to Trillbot at the Imperial CampThe legendary Mapworks is operational once more!
+Find Hareph in the Salt Barrens and convince him to return to Zeryphesh.
+Let's just hope that they're more prepared than the others were.
+Be sure you're ready before you venture any further from the Enclave.
+Be sure you're ready before you venture any further from the Enclave.
+Enter the Wellspring Temple and ensure that the Guardian of Water is safe.
+Search the Scrapworks for a Power SourceI wish you had gotten here sooner!
+"Enter the Undercurrents in the Empty Quarter and destroy the four Manatoxin Pumps.
+Look for places where the Temple Priests may have hidden from the Nether-
+Return with the dynamite to the Vanquisher troop leader in the Blight Bogs ,
+Return to Imperial Botanist in Dank HollowSearch the Blightbogs for the Rotting Crypt.
+Use the Key to gain entrance to Vyrax's Tower in Rivenskull Gorge.
+Use the Key to gain entrance to Vyrax's Tower in Rivenskull Gorge.
+Smash the Eggs in the Skaran Hive and destroy the corrupting influence,
+Install the Cognition Linkage in Trillbot 4000.I am the great bard Trill.
+Speak to the newly freed Guardian of Mana.- Travel through the Witherways,
+Go through the Path of the Honored Dead to the Temple Steppes.
+Investigate the Abandoned Sawmill and find the dynamite and the missing troop.
+Please take these explosives with you and journey to Swarm Point,
+Search the Ossean Wastes for the entrance to the Forsaken Vaults,
+Stop the Alchemist before he can drain them as well!The Netherim,
+Travel through the Rotted Path and the Blightbogs to the Middenmine,
+Search the Emberworks for a way to recharge the Power Source,
+Travel through the Rotted Path and the Blightbogs to the Middenmine,
+Search the Emberworks for a way to recharge the Power Source,
+Return to the Vanquisher Scout in the Enclave for your reward.
+Return to the quest NPC in the place for your reward.
+can!Convince the Estherian Spirits to let you into the Bone Gallery,
+Return to Nerasis in the Ossean Wastes and report your results.
+Return to the Enchanter in the Estherian Enclave for your reward.
+Return to the Imperial Botanist in Dank Hollow for your reward.
+Find Fade in the Sundered BattlefieldFind Fade in the Sundered Battlefield.
+Enter the Forgotten Halls and confront Thiss the Spectral Dragon.
+Reclaim the Crown for the mysterious individual behind the Emberworks Door.
+Return the Crown to the mysterious individual behind the Emberworks Door.
+Enter the Tower of the Moon in the Ossean Wastes;
+Enter the Tower of the Moon in the Ossean Wastes;
+Return to Guardian of Air in ZerypheshWe must act quickly.
+Let us return to the matter of the Dark Alchemist.
+Return to Dilawar in the Empty Quarter for your reward.
+Return to Bellethe in Crow's Pass for your reward.
+Search for the shrines that mark Fade's resting place.
+Seek out the four skulls and return them to Fade.
+Use the Golden Gear to unlock the Celestial Armory,
+Locate the three Royal Masks in the Salt Barrens.
+Return to Commander Muzaffar in the Ossean WastesGet a [
+Use the Watchweald Portal to enter the Watchweald Temple.
+Speak to the Guardian of WaterYou have my gratitude,
+Search the Frosted Hills for the Crest of Pools,
+Follow the trail of Trillbot Parts in the Blightbogs.
+again!Let me tell you a little about Ember Truffles.
+Bring me the skulls of four warriors of renown,
+Return the four skulls to Fade in the Battlefield.
+Return the four skulls to Fade in the Battlefield.
+Activate the Armory Portal in the Celestial Armory,
+Return the Royal Masks to the Faceless King.
+Determine if there are any Ezrohir scouts there ...
+Use the gems to open the Watchweald Portal,
+Defeat the Alchemist and retrieve Ordrak's Heart.
+Return to Ambassador Taldimut in the Frosted Hills.
+Return to the Forgotten Hero for your reward.
+Return to the Imperial Trapper for your reward.
+Secure the Bronze Head from the SturmbeornObtain the [
+Find anything out there that could help us,
+Speak to the Injured Vanquisher in the Blightbogs.
+Defeat Vyrax at the top of the tower.
+Defeat Vyrax at the top of the tower.
+Return the Locket to Jessa in the Blightbogs.
+Return it to Sprocket in the Imperial Camp.
+Defeat the monsters attacking the traveler's wagon.
+Defeat the Three Sisters in the Battlefield.
+Defeat the Manticore in the Stygian Aerie.
+Meet me back in the Estherian Enclave,
+Keep up the good work!I'm Captain Jakobi,
+Meet me back in the Estherian Enclave,
+Use them to open the Watchweald Portal,
+Recover the Passkey Ember from the slavers,
+Warn them that the Alchemist destroyed Torchlight,
+Search the Scrapworks for a Power Source,
+Stand back while I activate the Automaton!
+Search the Scrapworks for a Power Source,
+Ignite the Flammable Lanterns in the Slavers'
+Search the Frosted Hills for three components:
+Defeat the five Spectral Champions in Crows'
+Discover the fate of Jessa's father.
+Search the Blightbogs for the Rotting Crypt.
+Discover the fate of Jessa's father,
+Enter Vyrax's Tower in Rivenskull Gorge.
+Find and aid the missing crew.
+Report in at the Imperial Camp,
+Follow her and pay the cost.
+Remember the Estherians you could not.
+Keep your eyes open out here.
+Keep your eyes open out here.
+Enter the Broken MinesWe're nearly there,
+Return to Josimon in the Slavers'
+Defeat the Netherim in the Blightbogs.
+Enter the Muckery in Dank Hollow;
+Do not worry about us.
+Defeat Ezrek Khan in Jehannum,
+Speak to the Imperial Railmaster,
+Let me see your authorization.
+Let me see your authorization.
+Let me see your authorization.
+Speak to the DestroyerThe Destroyer,
+Return to the Enclave immediately.
+Place Power Source in Robo-
+Do not worry about us.
+Come by and see me,
+Retrieve the Scroll of Anom-
+Return the Scroll of Anom-
+Retrieve the Scroll of Anom-
+Bring the Rosamortis to Selrenki,
+See this crypt over here?
+Do not worry about us.
+Place them upon these altars,
+Check back with Trillbot.
+Enter the Skaran Hives.
+conquer all of Vilderan,
+Find that Ezrohir Marauder!
+Restore my physical form,
+Step through the Portal.
+Travel through the Witherways,
+abide here a while,
+Scout the Wellspring Temple,
+See that dwarven automaton?
+Seek out Professor Stoker.
+Go get some well-
+Be careful in there.
+Rouse the Estherian Spirits,
+Bring them to me,
+Find the Alchemist.
+Seek their leader,
+Return to Zeryphesh.
+Return to Zeryphesh.
+Defeat the Artificer,
+Locate Fazeer Shah,
+Travel to GrunnheimWell,
+Seek the Railmaster,
+Seek the Vaults,
+Seek the Vaults,
+See those burned-
+follow the road,
+See those burned-
+Go through Crows'
+Defeat the Netherlord.
+Find the Alchemist.
+Burn them out!
+Leave at once,
+Find the Alchemist.
+Clear the cave-
+Wait a moment!
+Go forth,
+Remember that,
+Remember that,
+Come on,
+Defeat him,
+Get a [
+Get a [
+Get a [
+Get a [
+Get a [
+Get a [
+Get a [
+Get a [
+Go on,
+Hasten forth,
+Take this:
+Be careful!
+Defeat Cacklespit.
+Seek the "
+Locate the "
+Close the "
+=============== ORDER AND REQUESTS FOR TES Books ===============
 
 	DO2
 Author: Anthil Morvir | Title: hypothetical-treachery | Concordance:
@@ -448,3 +979,294 @@ Author: Master Rhunen Zebavi | Title: realizations-acrobacy | Concordance:
 	IR3
 
 	IR4
+
+MATCHER EXPRESSIONS
+
+	DR2
+I ask you to prove it with your blade.
+I ask you to prove it with your blade.
+
+	IO2
+Your goal is to keep your feet planted and bend out of the way quickly.
+
+	IO3
+I need you to come as soon as possible.
+I need you to run an errand to Wayrest.
+We need you alive to make a report.
+
+	DO3
+I demand that action be taken at once to investigate the Underroot cavern,
+I demand to be given the respect I deserve.
+
+	DO1
+Curse the name of calamity's tyrant king!My mother whispered this verse to me in the days when we lived amongst the Dark Elves against our will:
+Remind Madame when she complains of the desert sun that she has an ample selection of parasols in the miscellany trunk.
+Remind me that I owe you the next time I can get away from my duties for an hour or two.
+Let those who look upon Japhet's Fortress be afraid and know the great man who conquered the accursed island.
+Hear our pleas!While my siblings may be obsessed with the taste that fear imbues in the blood of mortals,
+Bring everything you've acquired since our last meeting to the entrance and make sure you bring this note!
+Look upon the Wood Elf and see how even the misguided worship of the Divines can pervert our lineage.
+Do what you must to sever the grip of all rulers and place the crown on your own brow.
+Embrace the art of the people and marry it and by that I mean secretly have it murdered.
+Consider it slow repayment for the years you have dealt with the burden of an underachieving son.
+Jouney below the library and bow before the altar to find the true path through the darkness.
+Let the evil ones burn in its light as if by the excess of our vision.
+Make your way to Morrowind and the great island of Vvardenfell as soon as you can.
+Follow the Nine to Glory!The overlords of the Aldmeri Dominion are hereby put on notice:
+Allow the recoil of the blow to drive the mace back into the ready position,
+Make sure your Draugr warhammer is made of sturdy materials underneath its coating of dust,
+Get back in your boat and row as far and as fast as you can.
+Consider the colossal arrogance of our proposition to bring Peace and Enlightenment to the East,
+Move the mixture to a smaller flame and begin gently stirring in the milk.
+Take the time to meander along the paths that stretch across the beautiful landscape.
+Allow me to speculate on subjects where the existing records are incomplete at best.
+Rise up and reject the tyranny of shape and story!The excavation is going well.
+Remember the toy we played with as we ran through this place as children?
+Move the mixture to a smaller flame and begin gently stirring in the milk.
+Lift the weight of the world off my shoulders or some such thing.
+Take the time to examine the beautiful plant life found in the region.
+Travel over the quaint bridges that span the small islands of southern Dementia,
+Take what you can the first time and let us do the rest.
+Please make a full accounting and report any irregularities to your direct superior.
+Send me a list of candidates you deem acceptable for life in Summerset.
+Pay no mind to the creatures you think you see patrolling the lakes.
+Corrupt what lies within your grasp and turn it to your own purpose,
+Find what I can about Mhuvnak and where he may have escaped to.
+Come through the sewers and meet me in the Old Imperial Prison.
+Be ready for battle if you have reason to use these recipes.
+Place upon it an enchantment of sharpness and one of weak shock.
+Turn the paper sideways and the ink runs right off the page.
+Let's look at these clans and the symbols that identified them.
+Get one of those Nord cuirasses that shows a lot of skin,
+Follow these steps and I won't use you as troll chow.
+Beg her pardon for the conjecture on Nord legends and Psijic nonsense,
+Inscribe the names and symbols on the flesh of the palms.
+Put them up in the Den as proof of the deed.
+Feel uplifted in thine heart that you have this first key,
+Do what you do and they'll never be the wiser.
+Leave them next to your stove or forge for a month,
+Start with a pair of basic cylindrical greaves of Nord design,
+Do not abuse your powers or they will lead you astray.
+Remember to try that the next time Kor brings in supplies.
+Go there and enjoy the finest fishing you have ever seen.
+Sheath the haft below the head with metal for parrying purposes.
+Read it through several times slowly until you've got it.
+Pray to Alkosh not for his strength or his mighty roar,
+Suggest we hold tight and see if he reaches out.
+Renounce these misguided New Movements and return to your family,
+Pull up the chunks and set them in your smoker.
+Clothe yourself in faith and do as the Divines command.
+Keep hammering and the whole thing will fall apart eventually.
+Put some irregular curved points on the sword's spine,
+Let's hope it's not more trouble for me.
+Suggest letting it go for another week or two.
+Heed his commands as if they were my own.
+Hit the stone with a pick until it crumbles,
+Begin your strike when the opponent is leaning forward,
+Let all the Aurbis know itself to be Free!
+Apply in person at the camp outside Wormroot Depths,
+Look for mossy logs near old stumps and rocks,
+Stuff the fish with the rest of the ingredients.
+Pray for us as we once prayed for you.
+Take the atronachs and throw them into the prism.
+Thrill to the savage ferocity of the Bangkorai lion!
+Gasp at the stealthy attacks of the Alik'r duneripper!
+Be sure to explore the lovely areas surrounding Hale,
+Use the old Fevered Mews as a staging ground.
+Send me men and let me take the town.
+Look for me outside the town of Seyda Neen.
+Save yourself the trouble of collecting scattered plows!
+Return to me with proof of the deed.
+Obtain them to understand how they were made,
+Purify the needle over a fire of nightshade.
+Deny not that these days shall come again,
+Allow not a step more to be taken.
+Know ye that I have found my fleet,
+Take up the sword strengthened by our ancestors'
+Salt the inside and outside of the fish.
+Keep the rock near the fire until done.
+Let that traitor's name live in infamy.
+Use this blade when the fighting gets close,
+Let this be a lesson to greedy double-
+Use your remaining forces to guard the falls.
+Let us escort you up to the house.
+Let such stories be a lesson to you.
+Poach them and put them in a bap?
+Let me tell you about our latest adventure.
+Meet us there once you collect our fee.
+Use dreugh or shalk shell spurs for this.
+Turn away from an atrophied life of complacency.
+Practice some throws at the archery range,
+understand why the mistress would abandon us.
+Insert so slowly as barely to move.
+Avoid openly opposing her or her minions,
+Bring them all down if you can.
+Meet us as soon as you can,
+Continue to do so for ten minutes,
+Let us see what kind of destiny [
+Raise your voices against the moderate tide!
+Scar the leather parts with a cleaver,
+Take a pair of classic Nord shield-
+Use our safespots at the following camps:
+Bring both of yours to every argument.
+Enter King Orgnum and the mysterious gold-
+Live in One World with your spirits.
+Honor the spirits within and without you.
+Let Auridon deal with the other races.
+Let me go to the Final Battle!
+Remember the riddle we had for it?
+Continue to do so for ten minutes,
+Make certain they do not consume you.
+Miss a chance to see the Queen,
+Save that for the cuirass and pauldrons.
+Let all heed the lessons of Mournhold,
+Deny their commands and revel in combat,
+Submit to the endless edges twinned.
+Do not approach this one again.
+Keep a hand behind your back,
+Know that your Hell is Broken,
+Stop your dillying and your dallying,
+Know that then you are royalty,
+Rejoice in the promise of paradise!
+Walk across the lips of God.
+Put the saltwater in the pot,
+Weight the pot with the rock,
+Put the fish on the rock.
+Take a pair of Nord boots,
+Wound the criminal with my blade,
+be released from this mortal coil.
+Come cheer on your Colovian heroes,
+Witness brutal beasts from across Tamriel,
+Fill their drinking buckets with bog-
+Take some time and browse around-
+Do not give them nicknames like "
+Do not give them nicknames like "
+Pay reverence through gift and prayer.
+Acquaint the Ancestors with your affairs,
+Let no creature steal your spirits,
+Do not grieve for the dead.
+Take up your implements of war.
+Mind the horns on the rim,
+Swim north between the two pillars.
+Bring Doryatha and Celephyna with you.
+Demonstrate your will to the Deceiver.
+Mention nothing to the faculty,
+Behold the price of blasphemy.
+Hear those words and remember.
+Cool it in frost salts.
+Stir well until fully blended.
+Witness Lorkhan and the moons.
+Keep your eyes on Sapphire.
+Make sure of your kill,
+Craft yerself a maple bow.
+Bring it to a woodworkin'
+Fear only for a second.
+Return while you still may.
+Rub oil on the rock,
+Acquire a pair of medium-
+Use modern oak and steel,
+Come to think of it,
+Toss tenderized captives to trolls.
+Treat yourself to Alocacia Fruit,
+Tusk off or tusk you?
+Come to think of it,
+Face the serpent's bite!
+Let's gut the runt!
+Send my regards to Teemata.
+Raise an army in Underpall,
+Take a team of warriors,
+Pay heed to these things,
+Guard your Ancestors from beasts,
+Take shelter in their arms,
+Make good use of them.
+Praise Hircine and his Houndsmen!
+Take advantage when you can:
+Come in fits and starts,
+Welcome to my Dwemer Museum.
+Stir well until fully blended.
+Turn right to the beach.
+Take them to the west,
+Come back and see me (
+Come back and see me (
+Come back and see me (
+Take everything from the undeserving,
+Carry its weight face-
+Listen to my advice,
+Consider it a bonus.
+Keep your head down.
+Seek thy pocket now,
+Learn from my mistake;
+Follow Gargak the Knight.
+Rope the pot closed.
+Expect some flame traps.
+Kill anyone you meet.
+Make me your student.
+Woe betide the Sload!
+Wish you were here,
+Kill it on sight.
+Buy us some time,
+Prepare to join them,
+Kill it on sight.
+Keep pressing the Nords,
+Set my people free.
+Follow these recipes exactly.
+Take care of it,
+Show them no quarter.
+Take the whole city.
+Send me the men.
+Reject the Eyeless Aedra,
+Be more careful.
+Soak the moon-
+Open the gate:
+Slay us not,
+Let her come.
+Seal the vault.
+Wallow with joy,
+Smoke until dark.
+Talk to him.
+Abjure their company,
+Release the valve,
+Repeat every day.
+Give me back (
+Look about you,
+Let his memory,
+Heed its advice,
+Meet you at—
+Heed the spirits,
+Wish us luck!
+Beware of him,
+Do not fret,
+See to it,
+Use my key.
+Damn them all!
+Note the broad,
+Adopt and improvise.
+Please understand,
+Believe me,
+Damn it!
+Help him.
+Be vigilant,
+Stay safe,
+Find them.
+Steal them.
+Stand down,
+Stay here,
+Walk first.
+Come slow,
+Read this,
+Use hardwood.
+Stand aside.
+Scatter them,
+Mark me,
+Forgive me,
+Live well.
+Get well,
+Permit me.
+Remember me.
+Do so,
+Damn it.
+Damn the "
+Damn you,
+Damn you,
+Got it?
+Be imaginative!
