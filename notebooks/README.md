@@ -8,8 +8,10 @@ This subdirectory contains the primary research and exploratory "pokes" of the d
 - `research.ipynb`: This is the main notebook, containing the primary exploratory-focused research I conducted over the Spring 2022 Semester of [Data Science for Linguists](https://github.com/Data-Science-for-Linguists-2022). It is also where I created the `entities.pkl` and `ordreq.pkl` Dataframes.
 - `orders_requests.txt`: Full list of orders and requests generated via the `re` regexes and _spaCy's Matcher_.
 - `notebook_funcs`: Contains a simple package where I stuff the longer more generalized functions I use in `research.ipynb`.
+
     **NOTE:** This package can be easily used in any notebook, feel free to use this. Please just give me credit.
 - `specific_funcs`: Contains another simple package where the functions used to create text dumps and `Doc` objects are stored.
+
     **NOTE:** This package is specific to my research and folder structure, use and modify at your own risk.
 ***
 **NOTE:** For anyone who finds this repository, please tell me what you think via email! This was my first big project which involved both linguistics and computer science. While it may not be much, I am extremely proud of the work I done and I hope I and anyone else interested are able to use what's here to extend what I've research as well as form new research.
