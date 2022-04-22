@@ -10,7 +10,7 @@ This repository seeks to explore the following avenues:
 3. Are hapaxes a common occurrence in video games?
     * Extending this, what named entity types are common?
 ***
-**PLEASE NOTE** I am only publishing a sample of my dataset, including the full data of any video game texts I parse myself. However, the original repository this research is based on can be found [here](https://github.com/hmi-utwente/video-game-text-corpora).
+**PLEASE NOTE** I am only publishing a _very small_ sample of any dataset I did not originally make (excluding [`meta_kotor.pkl`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/tree/main/sample_data/meta_kotor.pkl)); however, I am including full data of any video game texts I parsed myself. If you wish to obtain a full dataset of any samples, please visit the original repository this research is based on, which can be found [here](https://github.com/hmi-utwente/video-game-text-corpora).
 ***
 ## Overview
 ### Folders
