@@ -18,4 +18,4 @@ This subdirectory is free for anyone to use! This sample data contains the follo
     **NOTE:** There exists some inaccuracies in counts.
 - `torchlight_sample.pkl`: The first 100 entries from all the quest dialogue of _Torchlight II_.
 ***
-**NOTE:** If you use any of this, please give credit not only to me, but also to Judith van Stegeren and Mari Theune (cited in the main [`README.md`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/blob/main/README.md)).
+**NOTE:** If you use any of this, please give credit not only to me, but also to Judith van Stegeren and Mari Theune (cited in the main [`README.md`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/README.md)).

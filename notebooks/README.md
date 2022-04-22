@@ -3,7 +3,7 @@
 By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ***
 This subdirectory contains the primary research and exploratory "pokes" of the data via _Jupyter_ notebook files. In particular, the following notebooks can be found:
-- `initial_base_data_exploration.ipynb`: Where I take the original data gotten from both my `HDialogueparser.py` script and the [_Video Game Text Corpora_](https://github.com/hmi-utwente/video-game-text-corpora) repository and clean then up for my intended use cases. I also create the data located in [`sample_data`](https://github.com/Data-Science-for-Linguists-2022/Sociolinguistics-In-Video-Games/tree/main/sample_data) (for the most part).
+- `initial_base_data_exploration.ipynb`: Where I take the original data gotten from both my `HDialogueparser.py` script and the [_Video Game Text Corpora_](https://github.com/hmi-utwente/video-game-text-corpora) repository and clean then up for my intended use cases. I also create the data located in [`sample_data`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/tree/main/sample_data) (for the most part).
 - `overview.ipynb`: An extremely brief notebook detailing information regarding to each of the games and their respectice dataframes. Some slight modifications to the data were made here (column names).
 - `research.ipynb`: This is the main notebook, containing the primary exploratory-focused research I conducted over the Spring 2022 Semester of [Data Science for Linguists](https://github.com/Data-Science-for-Linguists-2022). It is also where I created the `entities.pkl` and `ordreq.pkl` Dataframes.
 - `orders_requests.txt`: Full list of orders and requests generated via the `re` regexes and _spaCy's Matcher_.
