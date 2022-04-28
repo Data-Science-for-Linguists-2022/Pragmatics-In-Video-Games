@@ -11,9 +11,6 @@ This subdirectory contains the primary research and exploratory "pokes" of the d
 
     **NOTE:** This package is specific to my research and folder structure, use and modify at your own risk.
 
-### Misc. Files:
-- `orders_requests.txt`: Full list of orders and requests generated via the `re` regexes and _spaCy's Matcher_.
-
 ### Main Files
 - `initial_base_data_exploration.ipynb`: Where I take the original data gotten from both my `HDialogueparser.py` script and the [_Video Game Text Corpora_](https://github.com/hmi-utwente/video-game-text-corpora) repository and clean then up for my intended use cases. I also create the data located in [`sample_data`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/tree/main/sample_data) (for the most part).
 - `overview.ipynb`: An extremely brief notebook detailing information regarding to each of the games and their respectice dataframes. Some slight modifications to the data were made here (column names).
@@ -24,6 +21,9 @@ The following are smaller notebooks containing only the research done from each 
 - `speech_acts.ipynb`: Contains all my research relating to orders and requests.
 - `pronoun_freqs.ipynb`: Contains all my research relating to pronoun frequencies.
 - `named_entities.ipynb`: Contains all my research relating to named entities.
+
+### Misc. Files:
+- `orders_requests.txt`: Full list of orders and requests generated via the `re` regexes and _spaCy's Matcher_.
 
 ***
 **NOTE:** For anyone who finds this repository, please tell me what you think via email! This was my first big project which involved both linguistics and computer science. While it may not be much, I am extremely proud of the work I done and I hope I and anyone else interested are able to use what's here to extend what I've research as well as form new research.
