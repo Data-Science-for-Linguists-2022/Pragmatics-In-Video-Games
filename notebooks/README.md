@@ -1,6 +1,6 @@
 # Jupyter Notebooks
 ***
-By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
+[Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ***
 This subdirectory contains the primary research and exploratory "pokes" of the data via _Jupyter_ notebook files. In particular, the following notebooks can be found, please click the list-links to view it in [_nbviewer_](https://nbviewer.org):
 

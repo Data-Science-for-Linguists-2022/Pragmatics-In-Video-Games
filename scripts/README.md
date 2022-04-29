@@ -1,6 +1,6 @@
 # Scripts
 ***
-By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
+[Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ***
 The scripts are as follows:
 - `brown_deictic_extractor.py`: **FAILURE** Abandonded extractor for original plan (look at deictic words). Deemed too complicated.

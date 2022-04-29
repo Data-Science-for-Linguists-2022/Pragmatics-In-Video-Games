@@ -1,6 +1,6 @@
 # Sample Data
 ***
-By [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
+[Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 ***
 This subdirectory is free for anyone to use! This sample data contains the following pickled _pandas_ Dataframes:
 - `elder_sample.pkl`: Sample of the _TES Books_ Dataframe, containing all entries with less than 50 words.
