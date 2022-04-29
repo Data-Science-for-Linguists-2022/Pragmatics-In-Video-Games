@@ -17,6 +17,7 @@ This repository seeks to explore the following avenues on a small sampleset of v
 ## Overview
 ### Main Documents
 * [**`final_report.md`**](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/final_report.md): The final full-length report where I conclude my exploratory research as well as present the statistics I found.
+* [`Pragmatics in Video Games Presentation`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/Pragmatics%20in%20Video%20Games%20-%20Repo%20Copy,%20Alejandro%20Ciuba.pdf): A copy of my original presentation given on April 19, 2022 to my _Data Science for Linguists_ peers and professor, [Dr. Na-Rae Han](https://sites.pitt.edu/~naraehan/).
 * [`progress_report.md`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/progress_report.md) contains status updates on the research and data collected.
 * [`data_description.md`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/data_description.md) succinctly describes and overviews the data. 
 * [`project_plan.md`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/project_plan.md) is the repository's initial purpose and highlights a road map of goals, subject to change.
