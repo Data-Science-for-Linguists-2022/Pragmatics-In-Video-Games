@@ -139,9 +139,9 @@ This question can be thought of as a more straightforward version of the previou
 1. Capture the pronouns wanted
 2. Analyze their frequencies and usage 
 
-The original question centers around the 2nd person pronoun in particular because I wanted to see how that was used in-relation to the player, but the research ended up being more general, but still with a focus on _"you"_. I was easily able to get what I wanted using nothing but pure regular expressions, which were quite easy to make, see [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Exploring-Usage-of-the-2nd-Person-Pronoun) and [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Other-Pronouns) for them. 
+The original question centers around the 2nd person pronoun in particular because I wanted to see how that was used in-relation to the player, but the research ended up being more general, but still with a focus on _"you"_. I was easily able to get what I wanted using nothing but pure regular expressions, which were quite easy to make, see [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Exploring-Usage-of-the-2nd-Person-Pronoun) and [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Other-Pronouns) for them. I ignored forms like "y'all" or "ya" to try to focus more on the 2nd person singular, which was the most likely to be used with the player. 
 
-For the 2nd person pronoun, I also capture in-use examples directly from the data using my [`concordances`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/notebook_funcs/notebook.py) function, which was specifically designed to capture instances of a given word or phrase and highlight them in random sentences from the text columns of my dataframes. Here are a couple samples from each game taken from the [original sample]() in the Jupyter Notebook.
+For the 2nd person pronoun, I also capture in-use examples directly from the data using my [`concordances`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/notebook_funcs/notebook.py) function, which was specifically designed to capture instances of a given word or phrase and highlight them in random sentences from the text columns of my dataframes. Here are a couple samples from each game taken from the [original sample]() in the Jupyter Notebook:
 
 **_TES Books_**
 | Author | Title | Concordance |
@@ -171,6 +171,18 @@ For the 2nd person pronoun, I also capture in-use examples directly from the dat
 | Player | NO LISTENER | _...Haven't I told YOU guys to get lost already?..._ |
 | Nemo | NO LISTENER | _...I think, perhaps, YOU place an undue importance on rank and..._ |
 
+As you can see, "you" in _TES Books_ can be both in an instruction-manual (refering to reader) **and** character-dialogue (character talking to another) context, which is expected. Something interesting to observe with the _KOTOR_ concordances is that they all say _NO LISTENER_, so I'm curious as to why they are using the 2nd person pronoun; my guess is that the listener just simply couldn't be extracted in those contexts when the dataframe was originally created. _Torchlight II_ and _Hollow Knight_ always refer to the player since all their texts are related to either characters talking to the player, or the quests giving the player instructions. Interestingly, with _Torchlight II_, _NO SPEAKER_ means that its the quest system "directly" talking to the player, meaning text is displayed to the player, telling them where to go.
+
+Lastly, I graphed the frequencies of both ["you"](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Exploring-Usage-of-the-2nd-Person-Pronoun) as well as some [other pronouns](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Other-Pronouns). I only focused on subject, object, and indirect object pronouns since those are the contexts "you" can also appear in. Here are the graphs:
+
+| ![png](images/youoccurrencepercentages.png) |
+| Occurence of you per total token count as percentage |
+
+**Other Pronoun Percentages**
+| Singular | Plural |
+| --- | --- |
+| ![png](images/fpspercentages.png) | ![png](images/fpppercentages.png) |
+| ![png](images/tpspercentages.png) | ![png](images/tpppercentages.png) |
 
 ***
 ## Bibliography
