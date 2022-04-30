@@ -176,6 +176,7 @@ As you can see, "you" in _TES Books_ can be both in an instruction-manual (refer
 Lastly, I graphed the frequencies of both ["you"](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Exploring-Usage-of-the-2nd-Person-Pronoun) as well as some [other pronouns](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Other-Pronouns). I only focused on subject, object, and indirect object pronouns since those are the contexts "you" can also appear in. Here are the graphs:
 
 | ![png](images/youoccurrencepercentages.png) |
+|:--- |
 | Occurence of you per total token count as percentage |
 
 **Other Pronoun Percentages**
