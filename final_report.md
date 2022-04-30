@@ -18,7 +18,7 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
     * [Overview of the Games](#overview-of-the-games)
     * [How Are Orders & Requests Realized in Video Games?](#how-are-orders--requests-realized-in-video-gameshttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebooksspeechactsipynb--how-are-orders--requests-realized-in-video-games)
     * [What Is the Frequency & Usage of the 2nd Person Pronoun?](#what-is-the-frequency--usage-of-the-2nd-person-pronounhttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebookspronounfreqsipynb)
-    * Q3
+    * [What Are Some Common Named Entities in Video Games?](#what-are-some-common-named-entities-in-video-gameshttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebooksnamedentitiesipynb)
 5. Conclusion
 6. Bibiography
 ***
@@ -186,7 +186,7 @@ Lastly, I graphed the frequencies of both ["you"](https://nbviewer.org/github/Da
 | ![png](images/tpspercentages.png) | ![png](images/tpppercentages.png) |
 
 The percentages here, from what I can tell, follow some expected patterns given the type of data for each game. For example, since _The Elder Scrolls_ dataset is comprised of books, it makes sense to see the third person forms be the most prevalent when compared to the other datasets. _KOTOR_ containing the highest amount of first-person singular pronouns also makes sense considering the player character is voiced; 9485 out of the 29213 lines of dialogue come from him! The pronoun usage in _Hollow Knight_ is interesting because the main character can't talk, meaning it all comes from other characters either referring to themselves or others; it seems they tend to refer to themselves more than others. Lastly, _Torchlight II_ seems to use first-person pronouns way more than third-person, although I don't fully know why this is the case, I suspect it's because the characters tend to refer to themselves a lot, usually at the start of a quest when they ask the player character for help. However, more in-depth research would need to be done to confirm this.
-
+### [What Are Some Common Named Entities in Video Games?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb)
 
 ***
 ## Bibliography
