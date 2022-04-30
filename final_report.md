@@ -49,6 +49,7 @@ For the second question:
 I wanted to see how often the game refers to the player. I wanted to also see how often games use other pronouns and if the context of the text affects this.
 
 Lastly, in the third question:
+
 3. _What are some common named entities in video games?_
 
 I wanted to examine what type of named entities are common in the games I had. Do they mention people frequently, what about places? Can these entities be used in more than one context (i.e. toponyms)?
