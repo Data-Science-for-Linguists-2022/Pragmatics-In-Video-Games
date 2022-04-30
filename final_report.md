@@ -20,6 +20,7 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
     * Q2
     * Q3
 5. Conclusion
+6. Bibiography
 ***
 ## Introduction
 ### Opening
@@ -75,3 +76,19 @@ The second game in the dataset is _Torchlight II_, another single-player role-pl
 The third game is _Star Wars: Knights of the Old Republic_ (which, from now on, will always be abbreviated as _KOTOR_ because I am tired of writing that), a 2003 single-player role-playing game released by [_Bioware_](https://www.bioware.com) and published through [_LucasArts_](https://www.lucasfilm.com/what-we-do/games/). The player plays as [_Revan_](https://en.wikipedia.org/wiki/Revan) and traverses the _Star Wars_ universe during the age of the [_Old Republic_](https://en.wikipedia.org/wiki/Star_Wars:_The_Old_Republic) (set before the prequel trilogy). An interesting note about this game is that said player character has a voice, whereas in other games (e.g. _The Elder Scrolls Series_), the player character does not have a voice, but rather simply displays [what the player character is saying](https://en.wikipedia.org/wiki/Dialogue_tree). This game’s dataset is all the dialogue from the game, including background voicelines. It also contains speaker and listener information as well as comments from the developers.
 
 The last game in the list is _Hollow Knight_, a [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania#:~:text=Metroidvania%20is%20a%20subgenre%20of,genre%20borrowing%20from%20both%20series.)-style game made by [_Team Cherry_](https://www.teamcherry.com.au) and released early 2017. The player controls _The Knight_ as they make their way through its dark fantasy world, the _Kingdom of Hallownest_. Along the way, the player encounters various creatures and NPCs which give text-based dialogue to them. The dataset for this game contains all the dialogue given by all the characters throughout the entire game. Note that this means dialogue is only sorted by who said it and not by when the player meets them. However, there is still a slight chronological ordering regarding which dialogue is said when. For an extremely detailed list of when certain dialogue is said (as well as the complete text of the game), please see the Google Doc.
+***
+## Bibliography
+### Dataset Based On:
+van Stegeren, J., & Theune, M. (2020). Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora. In Intelligent Narrative Technologies Workshop. essay, AAAI Press.
+
+### Data Collected From:
+Bioware. (2003). Star Wars: Knights of the Old Republic (PC Version) [Video Game]. LucasArts.
+
+Torchlight II (PC Version) [Video Game]. (2012). Runic Games.
+
+The Elder Scrolls I-V and The Elder Scrolls Online (PC Versions) [Video Games]. (1994-2014). Bethesda Softworks.
+
+Hollow Knight (PC Version) [Video Game]. (2017). Team Cherry.
+
+### Additional Resources
+Dobrilova, T. (2022, April 26). How much is the gaming industry worth in 2022? [+25 powerful stats]. Techjury. Retrieved April 30, 2022, from https://techjury.net/blog/gaming-industry-worth/ 
