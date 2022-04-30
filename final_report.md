@@ -185,6 +185,9 @@ Lastly, I graphed the frequencies of both ["you"](https://nbviewer.org/github/Da
 | ![png](images/fpspercentages.png) | ![png](images/fpppercentages.png) |
 | ![png](images/tpspercentages.png) | ![png](images/tpppercentages.png) |
 
+The percentages here, from what I can tell, follow some expected patterns given the type of data for each game. For example, since _The Elder Scrolls_ dataset is comprised of books, it makes sense to see the third person forms be the most prevalent. _KOTOR_ containing the highest amount of first-person singular pronouns also makes sense considering the player character is voiced (the most frequent character) is voiced; 9485 out of the 29213 lines of dialogue come from them! The pronoun usage in _Hollow Knight_ is interesting because the main character doesn't/can't talk, meaning it all comes from other characters either referring to themselves or others; they tend to refer to themselves more than others too. Lastly, _Torchlight II_ seems to use first-person pronouns way more than third-person, although I don't fully know why this is the case, I suspect it's because the characters tend to refer to themselves a lot, usually at the start of a quest when they ask the player character for help. However, more in-depth research would need to be done to confirm this.
+
+
 ***
 ## Bibliography
 ### Dataset Based On:
