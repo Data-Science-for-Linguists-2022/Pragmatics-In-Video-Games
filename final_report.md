@@ -69,13 +69,64 @@ After reading their paper, I was able to use a couple of their techniques to get
 ### Overview of the Games
 Before going through each question in-detail, it’s important to give a brief overview of each game in the dataset, discussing their genre, main themes, and what the data from the game pertains to and how it relates to the game as a whole. In doing this, it’ll be easier to contextualize the data and understand why the results given are the way they are.
 
-First, the biggest dataset is that from _The Elder Scrolls Series_, a series of [single-player role-playing](https://en.wikipedia.org/wiki/Role-playing_game#:~:text=Single-player%20role-playing%20video%20games%20form%20a%20loosely%20defined,,%20settings,%20and%20game%20mechanics.) games where the player takes control of the main character (usually some [prophesied hero](https://elderscrolls.fandom.com/wiki/Last_Dragonborn)) to explore a region of the medieval-style fantasy world [_Tamriel_](https://elderscrolls.fandom.com/wiki/Tamriel). Created by [_Bethesda Softworks_](https://bethesda.net/en/dashboard), the game series first entry, [_Elder Scrolls: Arena_](https://en.wikipedia.org/wiki/The_Elder_Scrolls:_Arena), was published in 1994 and the datasets most recent entry, [_The Elder Scrolls: Online_](https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online), was released in 2014. Note, however, the latest entry is not single-player, but a [massive multiplayer online](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) game (_MMO_). The data from this game is completely made of [in-game books](https://elderscrolls.fandom.com/wiki/Books_(Oblivion)) which players can read when they come across them throughout each game's [open-world](https://en.wikipedia.org/wiki/Open_world).
+First, the biggest dataset is that from _The Elder Scrolls Series_, a series of [single-player role-playing](https://en.wikipedia.org/wiki/Role-playing_game#:~:text=Single-player%20role-playing%20video%20games%20form%20a%20loosely%20defined,,%20settings,%20and%20game%20mechanics.) games where the player takes control of the main character (usually some [prophesied hero](https://elderscrolls.fandom.com/wiki/Last_Dragonborn)) to explore a region of the medieval-style fantasy world [_Tamriel_](https://elderscrolls.fandom.com/wiki/Tamriel). Created by [_Bethesda Softworks_](https://bethesda.net/en/dashboard), the game series first entry, [_Elder Scrolls: Arena_](https://en.wikipedia.org/wiki/The_Elder_Scrolls:_Arena), was published in 1994 and the datasets most recent entry, [_The Elder Scrolls: Online_](https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online), was released in 2014. Note, however, the latest entry is not single-player, but a [massive multiplayer online](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) game (_MMO_). The data from this game is completely made of [in-game books](https://elderscrolls.fandom.com/wiki/Books_(Oblivion)) which players can read when they come across them throughout each game's [open-world](https://en.wikipedia.org/wiki/Open_world). Because of this, I will regularly refer to this dataset as _TES Books_ or something similar.
 
 The second game in the dataset is _Torchlight II_, another single-player role-playing game where the player completes quests while exploring [randomly generated dungeons](https://en.wikipedia.org/wiki/Random_dungeon). A dungeon is a series of rooms and corridors where the player is pitted against enemies, all in the hope to find items and complete quests. The game was made by [_Runic Games_](https://www.runicgames.com) and released in 2012. This game’s dataset pertains to the quest dialogue given to the player as well as who (or what) said it. Note also that this game has multiple dialogue options at points, meaning that dialogue can change depending on what the player chooses.
 
 The third game is _Star Wars: Knights of the Old Republic_ (which, from now on, will always be abbreviated as _KOTOR_ because I am tired of writing that), a 2003 single-player role-playing game released by [_Bioware_](https://www.bioware.com) and published through [_LucasArts_](https://www.lucasfilm.com/what-we-do/games/). The player plays as [_Revan_](https://en.wikipedia.org/wiki/Revan) and traverses the _Star Wars_ universe during the age of the [_Old Republic_](https://en.wikipedia.org/wiki/Star_Wars:_The_Old_Republic) (set before the prequel trilogy). An interesting note about this game is that said player character has a voice, whereas in other games (e.g. _The Elder Scrolls Series_), the player character does not have a voice, but rather simply displays [what the player character is saying](https://en.wikipedia.org/wiki/Dialogue_tree). This game’s dataset is all the dialogue from the game, including background voicelines. It also contains speaker and listener information as well as comments from the developers.
 
-The last game in the list is _Hollow Knight_, a [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania#:~:text=Metroidvania%20is%20a%20subgenre%20of,genre%20borrowing%20from%20both%20series.)-style game made by [_Team Cherry_](https://www.teamcherry.com.au) and released early 2017. The player controls _The Knight_ as they make their way through its dark fantasy world, the _Kingdom of Hallownest_. Along the way, the player encounters various creatures and NPCs which give text-based dialogue to them. The dataset for this game contains all the dialogue given by all the characters throughout the entire game. Note that this means dialogue is only sorted by who said it and not by when the player meets them. However, there is still a slight chronological ordering regarding which dialogue is said when. For an extremely detailed list of when certain dialogue is said (as well as the complete text of the game), please see the Google Doc.
+The last game in the list is _Hollow Knight_, a [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania#:~:text=Metroidvania%20is%20a%20subgenre%20of,genre%20borrowing%20from%20both%20series.)-style game made by [_Team Cherry_](https://www.teamcherry.com.au) and released early 2017. The player controls _The Knight_ as they make their way through its dark fantasy world, the _Kingdom of Hallownest_. Along the way, the player encounters various creatures and NPCs which give text-based dialogue to them. The dataset for this game contains all the dialogue given by all the characters throughout the entire game. Note that this means dialogue is only sorted by who said it and not by when the player meets them. However, there is still a slight chronological ordering regarding which dialogue is said when. For an extremely detailed list of when certain dialogue is said (as well as the complete text of the game), please see the [Google Doc](https://docs.google.com/document/d/1oaED7I6xL5NItD-wKyDB455f58d3weLz8OMIkRyEQlo/edit#heading=h.wgd1af4mikjx).
+### How Are Orders & Requests Realized in Video Games?
+For the first and the biggest of the questions, the way in which I tackled it can be broken down into a few steps:
+
+1. Figure out what forms to capture.
+2. Figure out how to capture those forms.
+3. Analyze said forms.
+
+For the first step, I decided to focus on the forms I felt were the most common when giving both direct and indirect orders and requests. Furthermore, I wanted to make sure these captured forms resulted in low amounts of false positives, especially since I wouldn't have a complete context to analyze the utterances. Ultimately, I ended up capturing about 13 different forms: 7 for orders and 6 for requests, which are listed [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb#How-Are-Orders/Requests-Realized-in-Video-Game-Dialogue?). I do ignore some important forms sadly; for example, orders/requests which are "disguised" as assertions. This was because I felt like I wouldn't be able to adequately capture them without bad recall and precision rates. Lastly, note that almost every form captures multiple similar ways of saying it. For example, IO1 (indirect order 1), captures all of the following:
+
+_You (really) need to X._
+_You (really) have to X._
+_You (really) ought to X._
+_You (really) should X._
+_You (really) must X._
+
+This means it captures 10 different ways of expressing an indirect order, but these forms were able to be easily and logically all grouped into one, more generalized form because they all follow a nearly identical structure. When referring to these forms, I will use D/I for direct/indirect, O/R for orders/requests, and then their given number (e.g. DO1 means _"Mand. Form"_).
+
+After figuring out what forms to capture, the next step was to actually devise a plan to extract them from the texts. For this, I realized I would need linguistic information for a few of these forms (e.g. DO3 must be present tense to capture only performative speech acts). To accomplish this, I used [_spaCy_'s English transformer model](https://spacy.io/models/en#en_core_web_trf) to tag text dumps for each game for morphological information, here's an example with the first part of the [_Hollow Knight_ text dump](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/sample_data/hollow_knight1.txt). However, also note that the text dumps for _KOTOR_ and _The Elder Scrolls_ were only samples due to memory limitations, with about 500 lines taken from each (see [this script](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/specific_funcs/spec.py)'s `random_sample_texts` function). This also meant that any [orders and requests captured](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb#Matcher-Expressions) using _spaCy_'s Matcher patterns would lose some metadata associated with them, such as speaker/author. These are a minority of the forms though, as eight were still able to be captured completely using standard [regular expressions](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb#Regular-Expressions). To see all the utterances which were captured by using these patterns and regular expressions, see [here](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/orders_requests.txt).
+
+Now, to analyze the data. I first [took a look at some small samples in-use](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb#Orders-&-Requests-In-Use) using my [`concordances`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/notebook_funcs/notebook.py) function. The forms capture via regular expression still could be analyzed with their metadata in-tact. Overall, the data here starts to paint a picture as to which forms will be the most popular and which ones are infrequent (also note that there is a false positive for the last line in _Hollow Knight_). For example, DO2, IO1, IO4, and DR1 all appear in every single game, but IR1 and IR4 only show up once each.
+
+The next step was to combine the utterances I had captured from both the regular expressions and matcher patterns. This was done via [putting both techniques' results](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb#Orders-&-Request-Numbers) in a [dataframe](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/sample_data/ordreq.pkl). Then, I proceed to produce the following table and chart:
+
+**Speech Acts per Game**
+| Speech Act | _Hollowknight_ | _KOTOR_ | _TES Books_ | _Torchlight II_ |
+:---         |:---            |:---     |:---         |:---              
+DO1	         |182	          |40	    |243	      |211
+DO2	         |39	          |264	    |477	      |2
+DO3	         |0	              |0	    |2	          |0
+DR1          |11	          |177	    |146	      |9
+DR2	         |0	              |0	    |2	          |1
+IO1	         |36	          |637	    |558	      |43
+IO2	         |0	              |0	    |1	          |1
+IO3	         |1	              |0	    |3	          |1
+IO4	         |11	          |187	    |95	          |1
+IR1	         |0	              |0	    |3	          |0
+IR2	         |11	          |291	    |170	      |11
+IR3	         |0	              |1	    |0	          |0
+IR4          |0               |1        |0            |0
+
+![png](images/speechactspervideogame.png)
+
+
+
+
+
+
+
+
+
+
 ***
 ## Bibliography
 ### Dataset Based On:
