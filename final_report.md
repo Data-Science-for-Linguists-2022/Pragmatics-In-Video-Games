@@ -116,15 +116,23 @@ IR2	         |11	          |291	    |170	      |11
 IR3	         |0	              |1	    |0	          |0
 IR4          |0               |1        |0            |0
 
-![png](images/speechactspervideogame.png)
+| ![png](images/speechactspervideogame.png) |
+|:---
+| Orders & Requests grouped by capture-type and stacked per video game. |
 
+As you can see, the most popular forms are IO1, DO1, and DO2 by a large margin. This makes sense given DO1 and DO2 are simply the positive and negative forms of commands. But IO1 is also interesting because it makes the listener (the player) the subject of the sentence while still telling them where to go. There could be further research done on if this is intentional to try to keep the player the focus of the game. Another interesting fact is that, while some forms only appear _once_ in the entire data set, all forms captured do appear. Let's take a look at the IO2 occurence from _TES Books_:
 
+_"Your goal is to keep your feet planted and bend out of the way quickly."_
 
+This line is from [_Saving Your Hide_](https://www.imperial-library.info/content/saving-your-hide) by in-game author Lieutenant Anders Gemane, where he talks about how to fight using a variety of weapons. This sample is interesting in particular because it is from a (more-or-less) instructions manual, meaning he is still directly referring to the reader, so this means this indirect order is still _technically_ being given to the player, who will be the reader in-context.
 
+Lastly, I wanted to dive deeper regarding the most popular forms. In particular, I wanted to examine which verb used in IO1 was the most popular, but examining the most popular verbs in general would be better. This was simpler as I could just use [regular expressions](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb#Orders-&-Request-Numbers) to capture the verbs and filter through the already made dataframe. Below are the results:
 
+| ![png](images/verboccurrences.png) |
+|:---
+| Verb Occurences in orders and requests, not grouped by game. |
 
-
-
+As expected, "must", "should", and "have" are the most popular. An interesting appearance is "worry" due to phrases such as "do not worry." I am also surprised by the appearance of "fail", which occurs frequently due to phrases such as "do not fail." Something interesting for future research might be looking at how verbs with positive and negative sentiment are used in positive and negative orders.
 
 
 ***
