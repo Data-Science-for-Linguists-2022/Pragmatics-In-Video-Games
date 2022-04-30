@@ -148,14 +148,28 @@ For the 2nd person pronoun, I also capture in-use examples directly from the dat
 |:---    | :---: |         ---:|
 | Anonymous | silt-strider-station | _...costs of an unsettling sea voyage when YOU can travel overland in safety and comfort..._ |
 | Anonymous |  whats-yours-mine-little-larceny | _...YOU turn your back and then..._ |
-| Anonymous | ruined-watchmasters-journal | Concordance: _...our oath. See it upheld. Eight protect YOU and our Pale Watch...._ |
+| Anonymous | ruined-watchmasters-journal | Concordance: _...our oath. See it upheld. Eight protect YOU and our Pale Watch..._ |
 
+**_Torchlight II_**
+| Speaker | Concordance |
+|:---     |         ---:|
+| Elder Josimon | _...Have YOU found the hostages yet?..._ |
+| NO SPEAKER | _...YOU summoned Cacklespit - a witch who has..._ |
+| Shady Character | _...If I have any more work for YOU, I'll be sure to let you know..._ |
 
+**_Hollow Knight_**
+| Character | Concordance |
+|:---       |         ---:|
+| Distant Villagers | _...Greetings. YOU are very tired. Sit and rest..._ |
+| Zote the Mighty | _...Just what do you think you're doing?! YOU dare to come between me and my..._ |
+| Willoh | _...Oh! Come in search of treats have YOU? I chanced upon a unique little fungus..._ |
 
-
-
-
-
+**_KOTOR_**
+| Speaker | Listener | Concordance |
+|:---     |:---      |          --:|
+| Bounty Hunter | NO LISTENER | _...Hey - YOU're the one who won that swoop race,..._ |
+| Player | NO LISTENER | _...Haven't I told YOU guys to get lost already?..._ |
+| Nemo | NO LISTENER | _...I think, perhaps, YOU place an undue importance on rank and..._ |
 
 
 ***
