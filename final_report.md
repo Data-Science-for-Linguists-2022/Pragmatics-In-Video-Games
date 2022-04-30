@@ -143,14 +143,12 @@ The original question centers around the 2nd person pronoun in particular becaus
 
 For the 2nd person pronoun, I also capture in-use examples directly from the data using my [`concordances`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/notebook_funcs/notebook.py) function, which was specifically designed to capture instances of a given word or phrase and highlight them in random sentences from the text columns of my dataframes. Here are a couple samples from each game taken from the [original sample]() in the Jupyter Notebook.
 
-| _TES Books_ |     |
-| ----------- | --- |
-| Author: Anonymous | Title: silt-strider-station |
-| Concordance: _...costs of an unsettling sea voyage when YOU can travel overland in safety and comfort..._ |
-| Author: Anonymous | Title: whats-yours-mine-little-larceny |
-| Concordance: _...YOU turn your back and then..._
-| Author: Anonymous | Title: ruined-watchmasters-journal |
-| Concordance: _...our oath. See it upheld. Eight protect YOU and our Pale Watch...._ |
+**_TES Books_**
+| Author | Title | Concordance |
+|:---    | :---: |         ---:|
+| Anonymous | silt-strider-station | _...costs of an unsettling sea voyage when YOU can travel overland in safety and comfort..._ |
+| Anonymous |  whats-yours-mine-little-larceny | _...YOU turn your back and then..._ |
+| Anonymous | ruined-watchmasters-journal | Concordance: _...our oath. See it upheld. Eight protect YOU and our Pale Watch...._ |
 
 
 
