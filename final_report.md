@@ -16,7 +16,7 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
     * [The Hollow Knight Data](#the-hollow-knight-data)
 4. [Analysis](#analysis)
     * [Overview of the Games](#overview-of-the-games)
-    * Q1
+    * [How Are Orders & Requests Realized in Video Games?](#how-are-orders--requests-realized-in-video-games)
     * Q2
     * Q3
 5. Conclusion
@@ -27,7 +27,7 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
 Video game corpora are surprisingly hard to find. For an industry that had a global revenue of over 150 billion dollars in 2019, and with multiple billion dollar companies creating games which are played by millions of people worldwide ([Dobrilova, 2022](https://techjury.net/blog/gaming-industry-worth/)), the linguistic research conducted on the media is extremely sparse, and public linguistic data even more so. It is an artistic medium which is rife with linguistic research waiting to be done. The research in this repository set out to answer these questions:
 
 1. How are orders/requests realized in video game dialogues? 
-2. What is the frequency of the 2nd person pronoun, you? 
+2. What is the frequency and usage of the 2nd person pronoun, you? 
 3. What are some common named entities in video games?
 
 Note that the research ended up being more exploratory and that, while these questions were answered, they were so on a _per-game_ basis and a larger dataset would be necessary to draw conclusions about the medium as a whole. While the research completed in this repository may be small and only focused on a small set of video games, it is still a starting point for what could be more-developed linguistic research in the future—especially for pragmatics. 
@@ -46,7 +46,7 @@ I wanted to try to examine in what ways do video games drive the player to compl
 	
 For the second question:
 
-2. _What is the frequency of the 2nd person pronoun, you?_
+2. _What is the frequency and usage of the 2nd person pronoun, you?_
 I wanted to see how often the game refers to the player. I wanted to also see how often games use other pronouns and if the context of the text affects this.
 
 Lastly, in the third question:
@@ -76,7 +76,7 @@ The second game in the dataset is _Torchlight II_, another single-player role-pl
 The third game is _Star Wars: Knights of the Old Republic_ (which, from now on, will always be abbreviated as _KOTOR_ because I am tired of writing that), a 2003 single-player role-playing game released by [_Bioware_](https://www.bioware.com) and published through [_LucasArts_](https://www.lucasfilm.com/what-we-do/games/). The player plays as [_Revan_](https://en.wikipedia.org/wiki/Revan) and traverses the _Star Wars_ universe during the age of the [_Old Republic_](https://en.wikipedia.org/wiki/Star_Wars:_The_Old_Republic) (set before the prequel trilogy). An interesting note about this game is that said player character has a voice, whereas in other games (e.g. _The Elder Scrolls Series_), the player character does not have a voice, but rather simply displays [what the player character is saying](https://en.wikipedia.org/wiki/Dialogue_tree). This game’s dataset is all the dialogue from the game, including background voicelines. It also contains speaker and listener information as well as comments from the developers.
 
 The last game in the list is _Hollow Knight_, a [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania#:~:text=Metroidvania%20is%20a%20subgenre%20of,genre%20borrowing%20from%20both%20series.)-style game made by [_Team Cherry_](https://www.teamcherry.com.au) and released early 2017. The player controls _The Knight_ as they make their way through its dark fantasy world, the _Kingdom of Hallownest_. Along the way, the player encounters various creatures and NPCs which give text-based dialogue to them. The dataset for this game contains all the dialogue given by all the characters throughout the entire game. Note that this means dialogue is only sorted by who said it and not by when the player meets them. However, there is still a slight chronological ordering regarding which dialogue is said when. For an extremely detailed list of when certain dialogue is said (as well as the complete text of the game), please see the [Google Doc](https://docs.google.com/document/d/1oaED7I6xL5NItD-wKyDB455f58d3weLz8OMIkRyEQlo/edit#heading=h.wgd1af4mikjx).
-### How Are Orders & Requests Realized in Video Games?
+### [How Are Orders & Requests Realized in Video Games?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb)
 For the first and the biggest of the questions, the way in which I tackled it can be broken down into a few steps:
 
 1. Figure out what forms to capture.
@@ -133,6 +133,25 @@ Lastly, I wanted to dive deeper regarding the most popular forms. In particular,
 | Verb Occurences in orders and requests, not grouped by game. |
 
 As expected, "must", "should", and "have" are the most popular. An interesting appearance is "worry" due to phrases such as "do not worry." I am also surprised by the appearance of "fail", which occurs frequently due to phrases such as "do not fail." Something interesting for future research might be looking at how verbs with positive and negative sentiment are used in positive and negative orders.
+### [What Is the Frequency & Usage of the 2nd Person Pronoun?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb)
+This question can be thought of as a more straightforward version of the previous in terms of steps:
+
+1. Capture the pronouns wanted
+2. Analyze their frequencies and usage 
+
+The original question centers around the 2nd person pronoun in particular because I wanted to see how that was used in-relation to the player, but the research ended up being more general, but still with a focus on _"you"_. I was easily able to get what I wanted using nothing but pure regular expressions, which were quite easy to make, see [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Exploring-Usage-of-the-2nd-Person-Pronoun) and [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb#Other-Pronouns) for them. 
+
+For the 2nd person pronoun, I also capture in-use examples directly from the data using my [`concordances`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/notebook_funcs/notebook.py) function, which was specifically designed to capture instances of a given word or phrase and highlight them in random sentences from the text columns of my dataframes. Here are a couple samples from each game taken from the [original sample]() in the Jupyter Notebook.
+
+
+
+
+
+
+
+
+
+
 
 
 ***
