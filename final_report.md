@@ -16,8 +16,8 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
     * [The Hollow Knight Data](#the-hollow-knight-data)
 4. [Analysis](#analysis)
     * [Overview of the Games](#overview-of-the-games)
-    * [How Are Orders & Requests Realized in Video Games?](#how-are-orders--requests-realized-in-video-games)
-    * [What Is the Frequency & Usage of the 2nd Person Pronoun?](#what-is-the-frequency--usage-of-the-2nd-person-pronoun)
+    * [How Are Orders & Requests Realized in Video Games?](#how-are-orders--requests-realized-in-video-gameshttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebooksspeechactsipynb--how-are-orders--requests-realized-in-video-games)
+    * [What Is the Frequency & Usage of the 2nd Person Pronoun?](#what-is-the-frequency--usage-of-the-2nd-person-pronounhttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebookspronounfreqsipynb)
     * Q3
 5. Conclusion
 6. Bibiography
@@ -76,7 +76,7 @@ The second game in the dataset is _Torchlight II_, another single-player role-pl
 The third game is _Star Wars: Knights of the Old Republic_ (which, from now on, will always be abbreviated as _KOTOR_ because I am tired of writing that), a 2003 single-player role-playing game released by [_Bioware_](https://www.bioware.com) and published through [_LucasArts_](https://www.lucasfilm.com/what-we-do/games/). The player plays as [_Revan_](https://en.wikipedia.org/wiki/Revan) and traverses the _Star Wars_ universe during the age of the [_Old Republic_](https://en.wikipedia.org/wiki/Star_Wars:_The_Old_Republic) (set before the prequel trilogy). An interesting note about this game is that said player character has a voice, whereas in other games (e.g. _The Elder Scrolls Series_), the player character does not have a voice, but rather simply displays [what the player character is saying](https://en.wikipedia.org/wiki/Dialogue_tree). This game’s dataset is all the dialogue from the game, including background voicelines. It also contains speaker and listener information as well as comments from the developers.
 
 The last game in the list is _Hollow Knight_, a [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania#:~:text=Metroidvania%20is%20a%20subgenre%20of,genre%20borrowing%20from%20both%20series.)-style game made by [_Team Cherry_](https://www.teamcherry.com.au) and released early 2017. The player controls _The Knight_ as they make their way through its dark fantasy world, the _Kingdom of Hallownest_. Along the way, the player encounters various creatures and NPCs which give text-based dialogue to them. The dataset for this game contains all the dialogue given by all the characters throughout the entire game. Note that this means dialogue is only sorted by who said it and not by when the player meets them. However, there is still a slight chronological ordering regarding which dialogue is said when. For an extremely detailed list of when certain dialogue is said (as well as the complete text of the game), please see the [Google Doc](https://docs.google.com/document/d/1oaED7I6xL5NItD-wKyDB455f58d3weLz8OMIkRyEQlo/edit#heading=h.wgd1af4mikjx).
-### [How Are Orders & Requests Realized in Video Games?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb) {#how-are-orders--requests-realized-in-video-games}
+### [How Are Orders & Requests Realized in Video Games?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb)
 For the first and the biggest of the questions, the way in which I tackled it can be broken down into a few steps:
 
 1. Figure out what forms to capture.
@@ -133,7 +133,7 @@ Lastly, I wanted to dive deeper regarding the most popular forms. In particular,
 | Verb Occurences in orders and requests, not grouped by game. |
 
 As expected, "must", "should", and "have" are the most popular. An interesting appearance is "worry" due to phrases such as "do not worry." I am also surprised by the appearance of "fail", which occurs frequently due to phrases such as "do not fail." Something interesting for future research might be looking at how verbs with positive and negative sentiment are used in positive and negative orders.
-### [What Is the Frequency & Usage of the 2nd Person Pronoun?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb) {#what-is-the-frequency--usage-of-the-2nd-person-pronoun}
+### [What Is the Frequency & Usage of the 2nd Person Pronoun?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb)
 This question can be thought of as a more straightforward version of the previous in terms of steps:
 
 1. Capture the pronouns wanted
