@@ -104,7 +104,7 @@ The next step was to combine the utterances I had captured from both the regular
 **Speech Acts per Game**
 | Speech Act | _Hollowknight_ | _KOTOR_ | _TES Books_ | _Torchlight II_ |
 :---         |:---            |:---     |:---         |:---              
-DO1	         |182	          |40	    |243	      |211
+DO1	         |183	          |40	    |243	      |211
 DO2	         |39	          |264	    |477	      |2
 DO3	         |0	              |0	    |2	          |0
 DR1          |11	          |177	    |146	      |9
@@ -208,6 +208,12 @@ First, the primary question was pretty straightforward, below are the graphs sho
 
 | ![png](images/eotesbooks.png) | ![png](images/eotorchlight.png) | ![png](images/eokotor.png) | ![png](images/eohollowknight.png) |
 |:---      |:---      |:---      |:---      |
+
+As seen in the first bar chart (as well as all charts), the most popular named entity is `PERSON`, which is interesting. However, I am not too sure about these results as I had originally used [_spaCy_'s small English model](https://spacy.io/models/en#en_core_web_sm), which produced `ORG` as the most popular tag, followed by person. This leads me to believe the results aren't set in stone and that, ultimately, human taggers will need to comb through the datasets to ensure the best accuracy. On the other hand, I don't think `PERSON` being the most popular is too far from the truth, given that the data from _The Elder Scrolls_ is all books, and that the _KOTOR_ characters seem to reference other people in-game quite frequently. Furthermore, a lot of _Torchlight II_'s quests mention people specifically, either that the player should go to them and/or give them something.
+
+Another issue I ran into was _toponyms_ which are extremely frequent, particularly in _The Elder Scrolls_ data, where entities could refer to groups of people, their territory, and their language. An example of this with the word _Cyrodiilic_ can be viewed [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Toponym-Troubles-in-Tagging).
+
+Despite the problems, it was very interesting seeing some trends amongst all the datasets. Obviously, the `PERSON` tag dominates every dataset, but they all contain high amounts of `NORP`, except _Hollow Knight_, which has high amounts of `PRODUCT`, `WORK_OF_ART`, and `CARDINAL` instead. `ORDINAL` also makes a high appearance, but this specifically because of a character named _Zote_
 
 ***
 ## Bibliography
