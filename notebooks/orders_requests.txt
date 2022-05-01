@@ -3416,6 +3416,7 @@ I want you to say...
 
 	DO1
 Get out of here and let me spend some quality time with all the Geo you've gifted me.
+Wear it and you'll be able to stay firmly in place when swinging your little nail around.
 Take this bright little fellow as your companion and he'll light your way through the thickest darkness.
 Sleep for as long as I have and you build up quite the appetite.
 Step over to the counter here and I'll see what you've got.
@@ -3459,13 +3460,11 @@ Pray you never find out what that is.
 Pray we do not meet in the arena…
 Make sure to believe in your own strength,
 Let your own desires be the only law.
-fall, your will shall carry you forward.
 Take this old trinket as encouragement from me,
 Go ahead and take what belongs to you!
 Bow! Bow bow bow bow to Gorb!
 Let us test our strength in joyful combat!
 Harvest the last lingering embers of this Kingdom.
-Come to buy a map have you?
 Let's hope it stays that way.
 Try one of the other trials first.
 Show us how foolish you truly are!
@@ -3474,7 +3473,6 @@ Come and see me when you do.
 Come searching for rare items have you?
 Come in and make yourself at home.
 Come and find me if you dare.
-Begone! Lest I draw my nail...
 Let's start again and repeat the '
 Hunt down the Essence that lingers there!
 Collect 100 Essence and return to me.
@@ -3492,6 +3490,7 @@ Let us begin the lesson immediately!
 Stay here with me and meditate,
 Curse me and my foolish bravado!
 Prove yourself ready to face it.
+be cut down by Life Ender...
 Collect it wherever you find it,
 Take this trinket for your efforts,
 Seek then knowledge of these lands?
@@ -3509,9 +3508,9 @@ Go back into the world,
 Leave me to my solitude.
 Go back into the world,
 Stay, if you like,
+Keep sharp my adventurous friend.
 Be on my way soon.
 Care to see my efforts?
-Come to scale the mountain?
 Rely on your own instincts.
 Be on your journey then,
 Watch where you're going,
@@ -3525,19 +3524,20 @@ Go out into the world,
 Keep up your tireless work!
 Search the kingdom's corners.
 Earn your well deserved reward…
-Let us leave this place...
 Go out into the darkness.
 Let us destroy the anchor,
 Return with more Geo.
 Cut your way forward.
 Pass it over then.
 Keep your nail half-
+Trade for useless shinies?
 Give me the word,
 Take it with you,
 Stay alive my friend.
 Be safe and farewell!
 Curse this wretched city!
 Stay on your guard!
+Return to your darkness.
 Continue on your path,
 Do as you wish,
 Have faith in me!
@@ -3551,6 +3551,7 @@ Show it to me!
 Give them to me...
 Give me Geo,
 Give me Geo,
+Give me Geo,
 Make a contribution,
 Step over here,
 Cut me down!
@@ -3559,10 +3560,8 @@ Give it here.
 Look at you!
 Take a look...
 Wear it proudly,
-Bring Jinn gift.
 Substitute "Geo"
 Stay with us,
-Come no closer,
 Leave me now,
 Forgive my inaction...
 Trust the moon,
@@ -3571,6 +3570,7 @@ Cross me again,
 Tremble before me!
 Win your battles,
 Invent your own!
+Go no further,
 Take care Le'mer.
 Seek them out,
 Seek them out,
@@ -3597,6 +3597,7 @@ Seek it out.
 Put it on!
 Grow and grow...
 Gather it up…
+grow grow grow!
 =============== ORDER AND REQUESTS FOR Torchlight II ===============
 
 	DO2

@@ -104,7 +104,7 @@ The next step was to combine the utterances I had captured from both the regular
 **Speech Acts per Game**
 | Speech Act | _Hollowknight_ | _KOTOR_ | _TES Books_ | _Torchlight II_ |
 :---         |:---            |:---     |:---         |:---              
-DO1	         |183	          |40	    |243	      |211
+DO1	         |182	          |40	    |243	      |211
 DO2	         |39	          |264	    |477	      |2
 DO3	         |0	              |0	    |2	          |0
 DR1          |11	          |177	    |146	      |9

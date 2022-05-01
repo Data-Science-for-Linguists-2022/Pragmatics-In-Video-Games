@@ -3,7 +3,7 @@ import nltk
 
 import pandas as pd
 
-import spacy.language
+import spacy
 
 import os
 
@@ -50,19 +50,22 @@ def random_sample_texts(es_df:pd.DataFrame, hk_df:pd.DataFrame, kr_df:pd.DataFra
 
 # create Doc objects for each game, returned as a tuple in the following order
 # (elder scrolls, )
-def create_docs(nlp:spacy.language, status:bool=False):
+# Doesn't work I guess
+def create_docs(nlp, status:bool=False):
     # Create document objects from the texts
     # MEMORY INTENSIVE!!!
     if status:
         docs = []
+        print(type(docs))
         FILEPATH = '../private/text_dumps/'
-        for file in os.listdir(FILEPATH):
+        for (ind, file) in enumerate(os.listdir(FILEPATH)):
             print(file)
             with open(FILEPATH + file, 'r') as src:
-                docs.append(nlp.pipe(src.read(-1)))
-                print(type(docs[-1]), len(docs[-1]))
+                doc = nlp(src.read(-1))
+                docs.append(doc)
+                print(type(docs[ind]), len(docs[ind]))
 
-        return (docs[2], docs[0], docs[1], docs[3]) # Have to due this due to how I set up the dataset and dictionary
+        return [docs[2], docs[0], docs[1], docs[3]] # Have to do this due to how I set up the dataset and dictionary
 
 # Write to the orders_requests.txt file given a bunch of regular expressions for a given game
 def write_to_ordreq_regex(ordreq:dict()={}, game:str='NO TITLE', context:list()=[], data:dict()={}, fresh_write:bool=False):
