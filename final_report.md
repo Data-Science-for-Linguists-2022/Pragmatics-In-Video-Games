@@ -258,7 +258,10 @@ The Elder Scrolls I-V and The Elder Scrolls Online (PC Versions) [Video Games]. 
 Hollow Knight (PC Version) [Video Game]. (2017). Team Cherry.
 
 ### Additional Resources
-Dobrilova, T. (2022, April 26). How much is the gaming industry worth in 2022? [+25 powerful stats]. Techjury. Retrieved April 30, 2022, from https://techjury.net/blog/gaming-industry-worth/ 
+Dobrilova, T. (2022, April 26). How much is the gaming industry worth in 2022? [+25 powerful stats]. Techjury. Retrieved April 30, 2022, from https://techjury.net/blog/gaming-industry-worth/.
+
+#### _Wikipedia_ Links
+These links were **exclusively** used in `final_report.md` to give readers context for various game terminology and genres, as well as certain games and characters in particular.
 
 Role-playing game. (2022, February 13). In _Wikipedia_. https://en.wikipedia.org/wiki/Role-playing_game.
 
@@ -278,8 +281,8 @@ Dialogue tree. (2021, December 26). In _Wikipedia_. https://en.wikipedia.org/wik
 
 Metroidvania. (2022, April 19). In _Wikipedia_. https://en.wikipedia.org/wiki/Metroidvania.
 
-### Additional Non-Academic Resources
-These were links used in `final_report.md` which give context to the games I analyzed; however, they are non-academic sites. I still left them here to try to give proper credit.
+#### Non-Academic Resources
+Much like the _Wikipedia_ links, these were used to give context to the games; however, they are non-academic sites. I still left them here to try to give proper credit.
 
 https://elderscrolls.fandom.com/wiki/Last_Dragonborn.
 
