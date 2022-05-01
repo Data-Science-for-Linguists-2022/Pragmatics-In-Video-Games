@@ -16,8 +16,8 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
     * [The Hollow Knight Data](#the-hollow-knight-data)
 4. [Analysis](#analysis)
     * [Overview of the Games](#overview-of-the-games)
-    * [How Are Orders & Requests Realized in Video Games?](#how-are-orders--requests-realized-in-video-gameshttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebooksspeechactsipynb--how-are-orders--requests-realized-in-video-games)
-    * [What Is the Frequency & Usage of the 2nd Person Pronoun?](#what-is-the-frequency--usage-of-the-2nd-person-pronounhttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebookspronounfreqsipynb)
+    * [How Are Orders & Requests Realized in Video Games?](#Q1)
+    * [What Is the Frequency & Usage of the 2nd Person Pronoun?](#Q2)
     * [What Are Some Common Named Entities in Video Games?](#Q3)
 5. Conclusion
 6. Bibiography
@@ -76,6 +76,8 @@ The second game in the dataset is _Torchlight II_, another single-player role-pl
 The third game is _Star Wars: Knights of the Old Republic_ (which, from now on, will always be abbreviated as _KOTOR_ because I am tired of writing that), a 2003 single-player role-playing game released by [_Bioware_](https://www.bioware.com) and published through [_LucasArts_](https://www.lucasfilm.com/what-we-do/games/). The player plays as [_Revan_](https://en.wikipedia.org/wiki/Revan) and traverses the _Star Wars_ universe during the age of the [_Old Republic_](https://en.wikipedia.org/wiki/Star_Wars:_The_Old_Republic) (set before the prequel trilogy). An interesting note about this game is that said player character has a voice, whereas in other games (e.g. _The Elder Scrolls Series_), the player character does not have a voice, but rather simply displays [what the player character is saying](https://en.wikipedia.org/wiki/Dialogue_tree). This game’s dataset is all the dialogue from the game, including background voicelines. It also contains speaker and listener information as well as comments from the developers.
 
 The last game in the list is _Hollow Knight_, a [Metroidvania](https://en.wikipedia.org/wiki/Metroidvania#:~:text=Metroidvania%20is%20a%20subgenre%20of,genre%20borrowing%20from%20both%20series.)-style game made by [_Team Cherry_](https://www.teamcherry.com.au) and released early 2017. The player controls _The Knight_ as they make their way through its dark fantasy world, the _Kingdom of Hallownest_. Along the way, the player encounters various creatures and NPCs which give text-based dialogue to them. The dataset for this game contains all the dialogue given by all the characters throughout the entire game. Note that this means dialogue is only sorted by who said it and not by when the player meets them. However, there is still a slight chronological ordering regarding which dialogue is said when. For an extremely detailed list of when certain dialogue is said (as well as the complete text of the game), please see the [Google Doc](https://docs.google.com/document/d/1oaED7I6xL5NItD-wKyDB455f58d3weLz8OMIkRyEQlo/edit#heading=h.wgd1af4mikjx).
+<div id="Q1"></div>
+
 ### [How Are Orders & Requests Realized in Video Games?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/speech_acts.ipynb)
 For the first and the biggest of the questions, the way in which I tackled it can be broken down into a few steps:
 
@@ -133,6 +135,8 @@ Lastly, I wanted to dive deeper regarding the most popular forms. In particular,
 | Verb Occurences in orders and requests, not grouped by game. |
 
 As expected, "must", "should", and "have" are the most popular. An interesting appearance is "worry" due to phrases such as "do not worry." I am also surprised by the appearance of "fail", which occurs frequently due to phrases such as "do not fail." Something interesting for future research might be looking at how verbs with positive and negative sentiment are used in positive and negative orders.
+<div name="Q1"></div>
+
 ### [What Is the Frequency & Usage of the 2nd Person Pronoun?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb)
 This question can be thought of as a more straightforward version of the previous in terms of steps:
 
@@ -186,7 +190,8 @@ Lastly, I graphed the frequencies of both ["you"](https://nbviewer.org/github/Da
 | ![png](images/tpspercentages.png) | ![png](images/tpppercentages.png) |
 
 The percentages here, from what I can tell, follow some expected patterns given the type of data for each game. For example, since _The Elder Scrolls_ dataset is comprised of books, it makes sense to see the third person forms be the most prevalent when compared to the other datasets. _KOTOR_ containing the highest amount of first-person singular pronouns also makes sense considering the player character is voiced; 9485 out of the 29213 lines of dialogue come from him! The pronoun usage in _Hollow Knight_ is interesting because the main character can't talk, meaning it all comes from other characters either referring to themselves or others; it seems they tend to refer to themselves more than others. Lastly, _Torchlight II_ seems to use first-person pronouns way more than third-person, although I don't fully know why this is the case, I suspect it's because the characters tend to refer to themselves a lot, usually at the start of a quest when they ask the player character for help. However, more in-depth research would need to be done to confirm this.
-<div id="Q3"></a>
+<div id="Q3"></div>
+
 ### [What Are Some Common Named Entities in Video Games?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb)
 Named Entities was a question I wasn't sure how to answer at first. Not only did I not know how to properly tag any named entities I saw, but I was also confused as to what I could investigate with them. Luckily, after learning _spaCy_, I was able to use its [`ner`](https://spacy.io/api/entityrecognizer) component to tag named entities with a high degree of [precision and recall](https://spacy.io/models/en#en_core_web_trf-accuracy), being .9 each. After tagging, [I created](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Dataframe-Creation) a [dataframe](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/sample_data/entities.pkl) to store the named entity, its [type](https://spacy.io/models/en#en_core_web_trf-labels), and its game. Please remember from [_How Are Orders & Requests Realized in Video Games?_](#how-are-orders--requests-realized-in-video-gameshttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebooksspeechactsipynb) that the data used from _The Elder Scrolls_ and _KOTOR_ are only samples due to memory limitations. I ended up exploring the following [subquestions](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Summary):
 
