@@ -2,7 +2,7 @@
 ***
 [Alejandro Ciuba](https://alejandrociuba.github.io), alc307@pitt.edu
 
-February 14, 2022-April 29,2022
+February 14, 2022-May 1, 2022
 ***
 ## Summary
 This repository seeks to explore the following avenues on a small sampleset of video game text data:

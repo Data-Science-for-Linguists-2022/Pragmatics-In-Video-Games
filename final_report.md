@@ -15,12 +15,12 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
     * [The Original Repository](#the-original-repository)
     * [The Hollow Knight Data](#the-hollow-knight-data)
 4. [Analysis](#analysis)
-    * [Overview of the Games](#overview-of-the-games)
+    * [Overview of the Games](#Overview)
     * [How Are Orders & Requests Realized in Video Games?](#Q1)
     * [What Is the Frequency & Usage of the 2nd Person Pronoun?](#Q2)
     * [What Are Some Common Named Entities in Video Games?](#Q3)
-5. Conclusion
-6. Bibiography
+5. [Conclusion](#conclusion)
+6. [Bibiography](#bibliography)
 ***
 ## Introduction
 ### Opening
@@ -66,7 +66,9 @@ The data they had gotten from the games was in a really good state. All I had to
 After reading their paper, I was able to use a couple of their techniques to get the script data from _Hollow Knight_. I was lucky enough to have found an extremely well made [fan-written script](https://docs.google.com/document/d/1oaED7I6xL5NItD-wKyDB455f58d3weLz8OMIkRyEQlo/edit#heading=h.wgd1af4mikjx) containing all of the text from the game. I then used my [`HDialogueParser.py`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/scripts/HDialogueParser.py) script on an HTML version of the file to parse the characters and a dump of their dialogues throughout the game and put them into a dataframe. The section for _Hollow Knight_ in [`initial_data_exploration.ipynb`](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/initial_base_data_exploration.ipynb#Hollow-Knight) is mostly just me doing some quick renaming and adding word counts.
 ***
 ## Analysis
-### Overview of the Games
+<div id="Overview"></div>
+
+### [Overview of the Games](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/overview.ipynb)
 Before going through each question in-detail, it’s important to give a brief overview of each game in the dataset, discussing their genre, main themes, and what the data from the game pertains to and how it relates to the game as a whole. In doing this, it’ll be easier to contextualize the data and understand why the results given are the way they are.
 
 First, the biggest dataset is that from _The Elder Scrolls Series_, a series of [single-player role-playing](https://en.wikipedia.org/wiki/Role-playing_game#:~:text=Single-player%20role-playing%20video%20games%20form%20a%20loosely%20defined,,%20settings,%20and%20game%20mechanics.) games where the player takes control of the main character (usually some [prophesied hero](https://elderscrolls.fandom.com/wiki/Last_Dragonborn)) to explore a region of the medieval-style fantasy world [_Tamriel_](https://elderscrolls.fandom.com/wiki/Tamriel). Created by [_Bethesda Softworks_](https://bethesda.net/en/dashboard), the game series first entry, [_Elder Scrolls: Arena_](https://en.wikipedia.org/wiki/The_Elder_Scrolls:_Arena), was published in 1994 and the datasets most recent entry, [_The Elder Scrolls: Online_](https://en.wikipedia.org/wiki/The_Elder_Scrolls_Online), was released in 2014. Note, however, the latest entry is not single-player, but a [massive multiplayer online](https://en.wikipedia.org/wiki/Massively_multiplayer_online_game) game (_MMO_). The data from this game is completely made of [in-game books](https://elderscrolls.fandom.com/wiki/Books_(Oblivion)) which players can read when they come across them throughout each game's [open-world](https://en.wikipedia.org/wiki/Open_world). Because of this, I will regularly refer to this dataset as _TES Books_ or something similar.
@@ -196,8 +198,8 @@ The percentages here, from what I can tell, follow some expected patterns given 
 Named Entities was a question I wasn't sure how to answer at first. Not only did I not know how to properly tag any named entities I saw, but I was also confused as to what I could investigate with them. Luckily, after learning _spaCy_, I was able to use its [`ner`](https://spacy.io/api/entityrecognizer) component to tag named entities with a high degree of [precision and recall](https://spacy.io/models/en#en_core_web_trf-accuracy), being .9 each. After tagging, [I created](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Dataframe-Creation) a [dataframe](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/sample_data/entities.pkl) to store the named entity, its [type](https://spacy.io/models/en#en_core_web_trf-labels), and its game. Please remember from [_How Are Orders & Requests Realized in Video Games?_](#how-are-orders--requests-realized-in-video-gameshttpsnbviewerorggithubdata-science-for-linguists-2022pragmatics-in-video-gamesblobmainnotebooksspeechactsipynb) that the data used from _The Elder Scrolls_ and _KOTOR_ are only samples due to memory limitations. I ended up exploring the following [subquestions](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Summary):
 
 1. What named entites are common in video games?
-2. Are named entites common in video games?
-3. Are there trends in named-entity types across games?
+2. Are there trends in named-entity types across games?
+3. Are named entites common in video games?
 4. A brief look at hapaxes in named entities.
 
 First, the primary question was pretty straightforward, below are the graphs showing the raw counts of named entity types in all the video games between all datasets and then on a per-dataset level:
@@ -213,7 +215,24 @@ As seen in the first bar chart (as well as all charts), the most popular named e
 
 Another issue I ran into was _toponyms_ which are extremely frequent, particularly in _The Elder Scrolls_ data, where entities could refer to groups of people, their territory, and their language. An example of this with the word _Cyrodiilic_ can be viewed [here](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Toponym-Troubles-in-Tagging).
 
-Despite the problems, it was very interesting seeing some trends amongst all the datasets. Obviously, the `PERSON` tag dominates every dataset, but they all contain high amounts of `NORP`, except _Hollow Knight_, which has high amounts of `PRODUCT`, `WORK_OF_ART`, and `CARDINAL` instead. `ORDINAL` also makes a high appearance, but this specifically because of a character named _Zote_
+Despite the problems, it was very interesting seeing some trends amongst all the datasets. Obviously, the `PERSON` tag dominates every dataset, but they all contain high amounts of `NORP`, except _Hollow Knight_, which has high amounts of `PRODUCT`, `WORK_OF_ART`, and `CARDINAL` instead. `CARDINAL` is most likely due to the fact the characters tend to talk about places, giving the player vague directions as to where to go. However, for all datasets, the low appearance of tags like `LOC` or `ORG` still lead me to believe that further research should be done to more accurately generate tags.
+
+However, two areas which were not as susceptible to the specific tagging areas was the [total named entities for all noun chunks for each game](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Named-Entities-per-Total-Noun-Chunks), and [the hapaxes](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb#Hapaxes) for _Hollow Knight_ and _Torchlight II_ (I ignored hapaxes for _The Elder Scrolls_ and _KOTOR_ since they were samples). Below are the findings for each:
+
+| ![png](images/namedentititespertotalnounchunksaspercentages.png) |
+|:--- |
+| Named Entities per Total Noun Chunks (according to `nlp`) as percentages |
+
+| ![png](images/hapaxproportions.png) |
+|:--- |
+| Hapaxes per noun chunks kept as proportions |
+
+As I expected, named entities make up a sizeable chunk of all noun chunks in the datasets, in general. For hapaxes, I ignored type of tag, although further research could be done on which entity tags have the most hapaxes if a more accurate tagging scheme was devised. Overall, the amount of hapaxes in both games are extremely low, with most being spelled-out numbers, characters, some typos (e.g. _EzrohirFinally_), and some sentence fragments the tagger purposelly classified as single entities (numerical phrases are treated as one entity).
+***
+## Conclusion
+While there may be some inaccuracies in the data: false positives, false negatives, and incorrect tags. I still truly believe this is a good starting point for future research into the pragmatics of video games. In particular, I feel like the data captured relating to orders and requests as well as pronoun frequencies is extremely important as they highlight trends that can lead to further questions. If I were to continue this research after the term ends, I would definitely explore these two routes, but also try to improve the ML models I currently have for tagging named-entities, as that's what gave me the most troubles, so the conclusions gotten from that data are extremely broad, and must be looked at with a skeptic eye.
+
+This was the most intense project I've ever done, lasting from February 14th, 2022 to May 1st, 2022. Over those months, I learned more than I could have ever imagined about NLP, computational linguistics, and Python packages like _pandas_, _numpy_, and (especially) _spaCy_. I am thrilled to say I am proud of the work I have done, and despite the highs and lows, I would gladly do this all over again.
 
 ***
 ## Bibliography
