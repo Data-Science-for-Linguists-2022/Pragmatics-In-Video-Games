@@ -135,7 +135,7 @@ Lastly, I wanted to dive deeper regarding the most popular forms. In particular,
 | Verb Occurences in orders and requests, not grouped by game. |
 
 As expected, "must", "should", and "have" are the most popular. An interesting appearance is "worry" due to phrases such as "do not worry." I am also surprised by the appearance of "fail", which occurs frequently due to phrases such as "do not fail." Something interesting for future research might be looking at how verbs with positive and negative sentiment are used in positive and negative orders.
-<div name="Q1"></div>
+<div name="Q2"></div>
 
 ### [What Is the Frequency & Usage of the 2nd Person Pronoun?](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/pronoun_freqs.ipynb)
 This question can be thought of as a more straightforward version of the previous in terms of steps:
