@@ -16,13 +16,13 @@ The following are smaller notebooks containing only the research done from each 
 - [`named_entities.ipynb`](https://nbviewer.org/github/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/named_entities.ipynb): Contains all my research relating to named entities.
 
 ### Misc. Files:
-- `orders_requests.txt`: Full list of orders and requests generated via the `re` regexes and _spaCy's Matcher_.
+- [`orders_requests.txt`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/blob/main/notebooks/orders_requests.txt): Full list of orders and requests generated via the `re` regexes and _spaCy's Matcher_.
 
 ### Subdirectories:
-- `notebook_funcs/`: Contains a simple package where I stuff the longer more generalized functions I use in `research.ipynb`.
+- [`notebook_funcs/`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/tree/main/notebooks/notebook_funcs): Contains a simple package where I stuff the longer more generalized functions I use in `research.ipynb`.
 
     **NOTE:** This package can be easily used in any notebook, feel free to use this. Please just give me credit.
-- `specific_funcs/`: Contains another simple package where the functions used to create text dumps and `Doc` objects are stored.
+- [`specific_funcs/`](https://github.com/Data-Science-for-Linguists-2022/Pragmatics-In-Video-Games/tree/main/notebooks/specific_funcs): Contains another simple package where the functions used to create text dumps and `Doc` objects are stored.
 
     **NOTE:** This package is specific to my research and folder structure, use and modify at your own risk.
 ***
