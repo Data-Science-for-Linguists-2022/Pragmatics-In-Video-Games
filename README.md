@@ -34,11 +34,11 @@ This repository seeks to explore the following avenues on a small sampleset of v
 ***
 Here's what [my fellow classmates](https://github.com/Data-Science-for-Linguists-2022/Class-Lounge/blob/main/guestbooks/guestbook_alejandro.md) said about my project while it was in development!
 ***
-## Citations:
-### Dataset Based On:
+## Citations
+### Dataset Based On
 van Stegeren, J., & Theune, M. (2020). Fantastic Strings and Where to Find Them: The Quest for High-Quality Video Game Text Corpora. In Intelligent Narrative Technologies Workshop. essay, AAAI Press.
 
-### Data Collected From:
+### Data Collected From
 Bioware. (2003). Star Wars: Knights of the Old Republic (PC Version) [Video Game]. LucasArts.
 
 Torchlight II (PC Version) [Video Game]. (2012). Runic Games.

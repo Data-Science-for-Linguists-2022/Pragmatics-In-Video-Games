@@ -20,7 +20,7 @@ This `final_report.md` file contains in-detail descriptions of the process I wen
     * [What Is the Frequency & Usage of the 2nd Person Pronoun?](#Q2)
     * [What Are Some Common Named Entities in Video Games?](#Q3)
 5. [Conclusion](#conclusion)
-6. [Bibiography](#bibliography)
+6. [Bibliography](#bibliography)
 ***
 ## Introduction
 ### Opening
